@@ -59,7 +59,10 @@ contact: 'sarah.kaspar@embl.de'
 
 # Order of episodes in your lesson
 episodes: 
-- introduction.Rmd
+- 01-sampling.Rmd
+- 02-distributions.Rmd
+- 03-binomial.Rmd
+- 04-distributions-R.Rmd
 
 # Information for Learners
 learners: 
