@@ -2,9 +2,6 @@
 title: Setup
 ---
 
-## Who is this course for?
-
-
 
 ## Summary
 
@@ -31,9 +28,9 @@ Before starting this course, we recommend you complete [a first tutorial on data
 
 You need R and RStudio running on your computer, as we will not fix installations during the course.  
 
-Links for installation:
-R (install this first): https://cloud.r-project.org/
-RStudio: https://www.rstudio.com/products/rstudio/download/
+Links for installation:  
+- R (install this first): https://cloud.r-project.org/
+- RStudio: https://www.rstudio.com/products/rstudio/download/
 
 If you have an EMBL account, an alternative to installation can be using rstudio.embl.de - please check that you can log in, in case you want to use this option. 
 
