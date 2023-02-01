@@ -47,8 +47,8 @@ contact: 'sarah.kaspar@embl.de'
 # - introduction.md
 # - first-steps.md
 #
-# learners:
-# - setup.md
+#learners:
+#- setup.md
 #
 # instructors:
 # - instructor-notes.md
@@ -56,6 +56,11 @@ contact: 'sarah.kaspar@embl.de'
 # profiles:
 # - one-learner.md
 # - another-learner.md
+
+learners: 
+- setup.md
+- summary.md
+
 
 # Order of episodes in your lesson
 episodes: 
@@ -75,8 +80,7 @@ episodes:
 - 14-exercises.Rmd
 
 # Information for Learners
-learners: 
-- setup.Rmd
+
 
 # Information for Instructors
 instructors: 

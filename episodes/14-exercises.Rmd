@@ -1,7 +1,7 @@
 ---
 title: 'Exercises'
-teaching: 5
-exercises: 0
+teaching: 0
+exercises: 90
 ---
 
 ## Exercises
