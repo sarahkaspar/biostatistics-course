@@ -2,7 +2,7 @@
 title: Setup
 ---
 
-
+# Setup
 
 You need R and RStudio running on your computer, as we will not fix installations during the course.  
 
@@ -14,4 +14,7 @@ If you have an EMBL account, an alternative to installation can be using rstudio
 
 To install all packages necessary for completing the exercises and running the demonstrations, run the following command from the console in RStudio:
 
+```{r eval=FALSE}
 source("https://www.huber.embl.de/users/kaspar/biostat_2021/install_packages_biostat.R")
+```
+

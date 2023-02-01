@@ -1,19 +1,19 @@
 ---
 title: "Probability distributions in R"
-teaching: 10
-exercises: 2
+teaching: 5
+exercises: 7
 ---
 
 :::::::::::::::::::::::::::::::::::::: questions 
 
-- What is the binomial distribution and?  
-- What kind of data is it used on?
+- How can I calculate probabilities in R?
 
 ::::::::::::::::::::::::::::::::::::::::::::::::
 
 ::::::::::::::::::::::::::::::::::::: objectives
 
-
+- Demonstrate and practice the use of the base R functions for calculating probabilities. 
+- Explain the concept of cumulative distribution.
 
 ::::::::::::::::::::::::::::::::::::::::::::::::
 
@@ -31,9 +31,15 @@ The first letter specifies if we want to look at the density, probability distri
 
 The arguments depend on the distribution we are looking at, but always include the parameters of that function.  
 
-**Calculating probabilities:** Let's use the example where we caught 10 frogs and count how many of them are light-colored. 
+## Calculating probabilities
 
-![](../images/binomial_frogs.png) 
+
+Let's use the example where we caught 10 frogs and count how many of them are light-colored. 
+
+
+<p align="center">
+<img src="/fig/sampling-frogs-2.png" width="500"/>
+</p>
 
 For known parameters, we can calculate the the chances of counting exactly 5 light-colored frogs:
 ```{r, echo=TRUE}
@@ -42,19 +48,26 @@ p = 0.3 # true fraction of light frogs
 dbinom(x=5, size=n, prob=p)
 ```
 
-We can ask for the probability of catching at most (or at least) 5 light frogs. In this case, we need the cumulative probability distribution starting with `p`:
+We can ask for the probability of catching at most 5 light frogs. In this case, we need the cumulative probability distribution starting with `p`:
 
 ```{r, echo=TRUE}
 pbinom(q=5, size=n, prob=p) # at most
-pbinom(q=5, size=n,prob=p, lower.tail=FALSE) # larger than
 ```
+
+Similarly, we can ask for the probability of catching more than 5 light frogs:
+```{r}
+pbinom(q=5, size=n,prob=p, lower.tail=FALSE) # larger than
+
+```
+
+
 
 Catching at least 5 light frogs is a rare event.
 
 
 ::::::::::::::::::::::::::::::::::::: challenge 
 
-## Challenge 1: Disease prevalence  
+## Challenge: Disease prevalence  
 
 There is a disease with a known prevalence of 4%. You have a group of 100 randomly selected persons. Use the above functions to calculate  
 
@@ -63,8 +76,6 @@ There is a disease with a known prevalence of 4%. You have a group of 100 random
 
 
 :::::::::::::::::::::::: solution 
-
-## Solution
 
 1. Exactly 7 persons:
 ```{r}
@@ -78,20 +89,7 @@ pbinom(q=6, size=100, prob=0.04, lower.tail=FALSE)
 
 
 :::::::::::::::::::::::::::::::::
+:::::::::::::::::::::::::::::::::::
 
 
-## Challenge 2: Discrete distributions
-
-What is the probability of an outcome of X=1.5 in a discrete distribution?
-
-- 0 
-- 0.5 
-- 0.15 
-
-:::::::::::::::::::::::: solution 
-
-The value $1.5$ is not discrete, and can therefore not occur in a discrete distribution. Its probability is zero. 
-
-:::::::::::::::::::::::::::::::::
-::::::::::::::::::::::::::::::::::::::::::::::::
 
