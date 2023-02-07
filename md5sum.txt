@@ -20,6 +20,6 @@
 "episodes/14-exercises.Rmd" "024dfc610cd4b29cb0f7cc25ec5b88ca" "site/built/14-exercises.md" "2023-02-07"
 "instructors/instructor-notes.md" "60b93493cf1da06dfd63255d73854461" "site/built/instructor-notes.md" "2023-02-07"
 "learners/setup.md" "f1875f8d8b1f1f5adfd264b68e2f388f" "site/built/setup.md" "2023-02-07"
-"learners/summary.md" "0019b0eb4b437228e1c325ede327630d" "site/built/summary.md" "2023-02-07"
+"learners/summary.md" "752805d7d4b83383006a48d3dc1078b4" "site/built/summary.md" "2023-02-07"
 "profiles/learner-profiles.md" "60b93493cf1da06dfd63255d73854461" "site/built/learner-profiles.md" "2023-02-07"
 "renv/profiles/lesson-requirements/renv.lock" "84e12790ec7661570f8a8423890ac8fb" "site/built/renv.lock" "2023-02-07"
