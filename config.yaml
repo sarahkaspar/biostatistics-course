@@ -14,7 +14,7 @@ carpentry: 'incubator'
 title: 'Biostatistical Basics'
 
 # Date the lesson was created (YYYY-MM-DD, this is empty by default)
-created: 2022-12-21
+created: ~
 
 # Comma-separated list of keywords for the lesson
 keywords: 'statistics, biostatistics, lesson, The Carpentries'
@@ -47,8 +47,8 @@ contact: 'sarah.kaspar@embl.de'
 # - introduction.md
 # - first-steps.md
 #
-# learners:
-# - setup.md
+#learners:
+#- setup.md
 #
 # instructors:
 # - instructor-notes.md
@@ -57,15 +57,30 @@ contact: 'sarah.kaspar@embl.de'
 # - one-learner.md
 # - another-learner.md
 
+learners: 
+- setup.md
+- summary.md
+
+
 # Order of episodes in your lesson
 episodes: 
 - 01-sampling.Rmd
 - 02-distributions.Rmd
 - 03-binomial.Rmd
 - 04-distributions-R.Rmd
+- 05-Poisson.Rmd
+- 06-simulations.Rmd
+- 07-gamma-poisson.Rmd
+- 08-gaussian.Rmd
+- 09-visualizing-distributions.Rmd
+- 10-histogram.Rmd
+- 11-cdf.Rmd
+- 12-qq.Rmd
+- 13-summary.Rmd
+- 14-exercises.Rmd
 
 # Information for Learners
-learners: 
+
 
 # Information for Instructors
 instructors: 
