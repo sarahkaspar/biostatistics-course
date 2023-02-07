@@ -73,9 +73,9 @@ episodes:
 - 07-gamma-poisson.Rmd
 - 08-gaussian.Rmd
 - 09-visualizing-distributions.Rmd
-- 10-histogram.Rmd
+#- 10-histogram.Rmd
 - 11-cdf.Rmd
-- 12-qq.Rmd
+#- 12-qq.Rmd
 - 13-summary.Rmd
 - 14-exercises.Rmd
 
