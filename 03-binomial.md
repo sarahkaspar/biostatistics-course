@@ -26,7 +26,7 @@ The binomial distribution is what we have just seen in the example: We use it wh
 - how many out of 10 frogs are light green
 
 <p align="center">
-<img src="/fig/sampling-frogs-2.png" width="500"/>
+<img src="fig/sampling-frogs-2.png" width="500"/>
 </p>
 
 The binomial model has two parameters, which means the probabilities for the individual outcomes depend on two things: 
@@ -48,7 +48,7 @@ Here is what the distribution looks like for a success probability of 0.3 and a 
 
 
 <p align="center">
-<img src="/fig/binomial.png" width="500"/>
+<img src="fig/binomial.png" width="500"/>
 </p>
 
 

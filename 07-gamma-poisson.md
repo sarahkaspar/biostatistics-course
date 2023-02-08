@@ -24,7 +24,7 @@ In biology we often have the problem that the Poisson doesn’t fit very well, b
 
 
 <p align="center">
-<img src="/fig/gamma-poisson.png" width="800"/>
+<img src="fig/gamma-poisson.png" width="800"/>
 </p>
 
 To stay with the frogs counts -- but this time each individual frog was caught from a different lake.
@@ -82,7 +82,7 @@ rpois(n=100, lambda = 4) %>% mean()
 ```
 
 ```{.output}
-[1] 3.93
+[1] 3.96
 ```
 
 ```r
@@ -91,7 +91,7 @@ rpois(n=100, lambda = 4) %>% var()
 ```
 
 ```{.output}
-[1] 3.168081
+[1] 3.598384
 ```
 
 ```r
@@ -100,7 +100,7 @@ rnbinom(n=100, mu=4, size=2) %>%  mean()
 ```
 
 ```{.output}
-[1] 4.22
+[1] 4.85
 ```
 
 ```r
@@ -110,7 +110,7 @@ rnbinom(n=100, mu=4, size=2) %>%
 ```
 
 ```{.output}
-[1] 14.78222
+[1] 10.01323
 ```
 
 :::::::::::::::::::::::::::::

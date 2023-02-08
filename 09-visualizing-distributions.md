@@ -32,7 +32,7 @@ In this episode, I'll introduce the most common visualizations for empirical dis
 ## The histogram
 
 <p align="center">
-<img src="/fig/histogram.png" width="800"/>
+<img src="fig/histogram.png" width="800"/>
 </p>
 
 Once we have fitted a distribution to the data, we can visually compare the theory, that is the fitted distribution, to the actual data and decide whether this is a good fit.
@@ -46,7 +46,7 @@ This is why it is also useful to look at the cumulative distribution.
 **For every value $k$, the cumulative distribution gives the percentage of data points that have a smaller value than this $k$.**
 
 <p align="center">
-<img src="/fig/histogram-cumulative.png" width="800"/>
+<img src="fig/histogram-cumulative.png" width="800"/>
 </p>
 
 In this case, you can look up a certain frog size, and the graph will tell you what percentage of frogs is smaller than that.
@@ -62,7 +62,7 @@ Another useful plot is the QQ-plot. It’s very often used for checking whether 
 
 
 <p align="center">
-<img src="/fig/histogram-cumulative-qq.png" width="800"/>
+<img src="fig/histogram-cumulative-qq.png" width="800"/>
 </p>
 
 Here, we plot sample quantiles against theoretical quantiles. The 25th quantile is the value $k$ at which 25% of the data points are smaller then k. You can determine the quantile for each data point, and compare it to theory, so each point in this plot is a comparison between theory and data.

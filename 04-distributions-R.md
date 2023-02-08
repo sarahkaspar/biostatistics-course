@@ -38,7 +38,7 @@ Let's use the example where we caught 10 frogs and count how many of them are li
 
 
 <p align="center">
-<img src="/fig/sampling-frogs-2.png" width="500"/>
+<img src="fig/sampling-frogs-2.png" width="500"/>
 </p>
 
 For known parameters, we can calculate the the chances of counting exactly 5 light-colored frogs:

@@ -28,14 +28,14 @@ Then, if you count the number of light-colored frogs within that net, there are 
 Below, you see a plot out of this, where each of these events has a probability. A suitable distribution for describing this scenario is the *binomial distribution*, which assumes a number of trials (frog catches) which can have two outcomes (light, dark).
 
 <p align="center">
-<img src="/fig/sampling-frogs-2.png" width="500"/>
+<img src="fig/sampling-frogs-2.png" width="500"/>
 </p>
 
 
 If the true fraction of light frogs is one third, then the most likely outcome is catching 3 light frogs. Seeing 10 light frogs is rather unlikely: The probability is close to zero, and we would consider this a rare event. 
 
 <p align="center">
-<img src="/fig/sampling-frogs-3.png" width="500"/>
+<img src="fig/sampling-frogs-3.png" width="500"/>
 </p>
 
 
@@ -56,7 +56,7 @@ Answers 1 and 2 are correct. To 3: If experiments are not randomized, the result
 
 
 <p align="center">
-<img src="/fig/distributions-1.png" width="800"/>
+<img src="fig/distributions-1.png" width="800"/>
 </p>
 
 
