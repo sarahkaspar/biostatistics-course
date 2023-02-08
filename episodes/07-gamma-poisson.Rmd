@@ -24,7 +24,7 @@ In biology we often have the problem that the Poisson doesn’t fit very well, b
 
 
 <p align="center">
-<img src="/fig/gamma-poisson.png" width="800"/>
+<img src="fig/gamma-poisson.png" width="800"/>
 </p>
 
 To stay with the frogs counts -- but this time each individual frog was caught from a different lake.

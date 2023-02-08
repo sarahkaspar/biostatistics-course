@@ -29,7 +29,7 @@ It is applicable to repeated measurements of the same thing, for example
 
 
 <p align="center">
-<img src="/fig/frog_sizes.png" width="500"/>
+<img src="fig/frog_sizes.png" width="500"/>
 </p>
 
 The Gaussian distribution is continuous and has two parameters:  

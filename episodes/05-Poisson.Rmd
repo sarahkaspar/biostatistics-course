@@ -26,7 +26,7 @@ There is an approximation for the binomial distribution which can often be conve
 
 
 <p align="center">
-<img src="/fig/poisson-derivation.png" width="700"/>
+<img src="fig/poisson-derivation.png" width="700"/>
 </p>
 
 An example: 
@@ -49,15 +49,13 @@ Even though the Poisson is derived as an approximation of the Binomial, we don't
 
 
 <p align="center">
-<img src="/fig/poisson-lake.png" width="350"/>
+<img src="fig/poisson-lake.png" width="350"/>
 </p>
 
 For example, consider a two lakes with frogs of only one colour. We might want to compare the density of frogs in these lakes, which can be done by comparing the Poisson rates. For this, we count frogs within $2 m^2$ regions in both lakes. For each individual lake, this counting process could be described by a Poisson, with the rate giving the average number of frogs per $2 m^2$. 
 
 
-
-
-The poisson describes counting events over a fixed domain, which can be a period of time, or a fixed space. We assume here that events have an underlying rate, called lambda.
+In general, the poisson describes counting events over a fixed domain, which can be a period of time, or a fixed space. We assume here that events have an underlying rate, called lambda.
 
 Examples:  
 
@@ -77,7 +75,7 @@ $$\large P(X=k) = \frac{\color{purple}\lambda^k e^{-\color{purple}\lambda}}{k!} 
 In the next plot, Poisson distributions for different rates are shown:
 
 <p align="center">
-<img src="/fig/many_lambdas_plot.png" width="400"/>
+<img src="fig/many_lambdas_plot.png" width="400"/>
 </p>
 
 
