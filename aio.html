@@ -399,7 +399,7 @@
         
 <section id="aio-01-sampling"><p>Content from <a href="01-sampling.html">What is sampling</a></p>
 <hr>
-<p> Last updated on 2023-02-08 | 
+<p> Last updated on 2023-02-10 | 
         
         <a href="https://github.com/carpentries/workbench-template-rmd/edit/main/episodes/01-sampling.Rmd" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
 <div class="text-end">
@@ -432,7 +432,7 @@
 </div>
 </div>
 </div>
-<figure align="center"><img src="fig/sampling-frogs.png" width="500" class="figure mx-auto d-block"></figure><p>Let’s start with an example, and thereby define some terminology. We
+<figure><img src="fig/sampling-frogs.png" alt="lake with frogs and two samples drawn from them" width="500" class="figure mx-auto d-block"><figcaption>Sampling frogs in a lake</figcaption></figure><p>Let’s start with an example, and thereby define some terminology. We
 have a lake with frogs in it, and there are light and dark green frogs.
 There’s a sunny side of the lake, and a shadowy area by the trees. Now
 imagine you want to estimate the fraction of light green frogs in the
@@ -456,7 +456,7 @@ likely to over-represent one colour of frogs, and the reason why
 observations shouldn’t depend on each other. The <strong>sample
 size</strong> is the number of frogs in one sample.</p></section><section id="aio-02-distributions"><p>Content from <a href="02-distributions.html">What is a probability distribution?</a></p>
 <hr>
-<p> Last updated on 2023-02-08 | 
+<p> Last updated on 2023-02-10 | 
         
         <a href="https://github.com/carpentries/workbench-template-rmd/edit/main/episodes/02-distributions.Rmd" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
 <div class="text-end">
@@ -509,11 +509,11 @@ between 0 and 10.</p>
 probability. A suitable distribution for describing this scenario is the
 <em>binomial distribution</em>, which assumes a number of trials (frog
 catches) which can have two outcomes (light, dark).</p>
-<figure align="center"><img src="fig/sampling-frogs-2.png" width="500" class="figure mx-auto d-block"></figure><p>If the true fraction of light frogs is one third, then the most
+<figure><img src="fig/sampling-frogs-2.png" alt="possible outcomes of sampling ten frogs" width="500" class="figure mx-auto d-block"><figcaption>Binomial sampling</figcaption></figure><p>If the true fraction of light frogs is one third, then the most
 likely outcome is catching 3 light frogs. Seeing 10 light frogs is
 rather unlikely: The probability is close to zero, and we would consider
 this a rare event.</p>
-<figure align="center"><img src="fig/sampling-frogs-3.png" width="500" class="figure mx-auto d-block"></figure><div id="challenge1" class="callout challenge">
+<figure><img src="fig/sampling-frogs-3.png" alt="graph showing probability distribution of frog catches" width="500" class="figure mx-auto d-block"><figcaption>Sampling probabilities</figcaption></figure><div id="challenge1" class="callout challenge">
 <div class="callout-square">
 <i class="callout-icon" data-feather="zap"></i>
 </div>
@@ -542,7 +542,7 @@ statistical distribution.</li>
   Show me the solution
   </h4>
 </button>
-<div id="collapseSolution1" class="accordion-collapse collapse" aria-labelledby="headingSolution1" data-bs-parent="#accordionSolution1">
+<div id="collapseSolution1" class="accordion-collapse collapse" data-bs-parent="#accordionSolution1" aria-labelledby="headingSolution1">
 <div class="accordion-body">
 <p>Answers 1 and 2 are correct. To 3: If experiments are not randomized,
 the results still follow some distribution, but they are likely to not
@@ -551,7 +551,10 @@ represent reality well.</p>
 </div>
 </div>
 </div>
-<figure align="center"><img src="fig/distributions-1.png" width="800" class="figure mx-auto d-block"></figure><p>There are two types of probability distributions: discrete and
+<figure><img src="fig/distributions-1.png" alt="example graphs for discrete and continuous probability distributions" width="500" class="figure mx-auto d-block"><figcaption>Types of probability distributions</figcaption></figure></section><section id="discrete-and-continuous-distributions"><h2 class="section-heading">Discrete and continuous distributions<a class="anchor" aria-label="anchor" href="#discrete-and-continuous-distributions"></a>
+</h2>
+<hr class="half-width">
+<p>There are two types of probability distributions: discrete and
 continuous.</p>
 <p>A <strong>discrete distribution</strong> is what we have just seen,
 in this case the observations can only take integer values, in our
@@ -592,7 +595,7 @@ distribution?</p>
   Show me the solution
   </h4>
 </button>
-<div id="collapseSolution2" class="accordion-collapse collapse" aria-labelledby="headingSolution2" data-bs-parent="#accordionSolution2">
+<div id="collapseSolution2" class="accordion-collapse collapse" data-bs-parent="#accordionSolution2" aria-labelledby="headingSolution2">
 <div class="accordion-body">
 <p>The value <span class="math inline">\(1.5\)</span> is not discrete,
 and can therefore not occur in a discrete distribution. Its probability
@@ -607,7 +610,7 @@ any links that you are not going to use.
  -->
 </section></section><section id="aio-03-binomial"><p>Content from <a href="03-binomial.html">The binomial distribution</a></p>
 <hr>
-<p> Last updated on 2023-02-08 | 
+<p> Last updated on 2023-02-10 | 
         
         <a href="https://github.com/carpentries/workbench-template-rmd/edit/main/episodes/03-binomial.Rmd" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
 <div class="text-end">
@@ -651,7 +654,7 @@ phenotype</li>
 <li>how many patients out of 100 have a certain disease</li>
 <li>how many out of 10 frogs are light green</li>
 </ul>
-<figure align="center"><img src="fig/sampling-frogs-2.png" width="500" class="figure mx-auto d-block"></figure><p>The binomial model has two parameters, which means the probabilities
+<figure align="center"><img src="fig/sampling-frogs-2.png" width="500" class="figure mx-auto d-block"></figure><figure><img src="fig/sampling-frogs-2.png" alt="possible outcomes of sampling 10 frogs" width="500" class="figure mx-auto d-block"></figure><p>The binomial model has two parameters, which means the probabilities
 for the individual outcomes depend on two things: - <span class="math inline">\(n\)</span> is the number of trials, or frogs, or
 patients, and it’s fixed. - <span class="math inline">\(p\)</span> is
 the success probability.</p>
@@ -679,7 +682,7 @@ that may not be a favourable outcome.</p>
 </div>
 <p>Here is what the distribution looks like for a success probability of
 0.3 and a sample size of 10.</p>
-<figure align="center"><img src="fig/binomial.png" width="500" class="figure mx-auto d-block"></figure><p>The expected value of the binomial is <span class="math inline">\(n
+<figure><img src="fig/binomial.png" alt="example graph for binomial probability distribution" width="500" class="figure mx-auto d-block"><figcaption>The binomial distribution</figcaption></figure><p>The expected value of the binomial is <span class="math inline">\(n
 \times p\)</span>, which is quite intuitive: If we catch 10 frogs and
 the probability of being light-green is 0.3, then we expect to catch 3
 light-green frogs on average.</p></section><section id="aio-04-distributions-R"><p>Content from <a href="04-distributions-R.html">Probability distributions in R</a></p>
@@ -808,7 +811,7 @@ disease.</li>
   Show me the solution
   </h4>
 </button>
-<div id="collapseSolution1" class="accordion-collapse collapse" data-bs-parent="#accordionSolution1" aria-labelledby="headingSolution1">
+<div id="collapseSolution1" class="accordion-collapse collapse" aria-labelledby="headingSolution1" data-bs-parent="#accordionSolution1">
 <div class="accordion-body">
 <ol style="list-style-type: decimal">
 <li>Exactly 7 persons:</li>
@@ -848,7 +851,7 @@ any links that you are not going to use.
  -->
 </section></section><section id="aio-05-Poisson"><p>Content from <a href="05-Poisson.html">The Poisson distribution</a></p>
 <hr>
-<p> Last updated on 2023-02-08 | 
+<p> Last updated on 2023-02-10 | 
         
         <a href="https://github.com/carpentries/workbench-template-rmd/edit/main/episodes/05-Poisson.Rmd" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
 <div class="text-end">
@@ -894,7 +897,8 @@ often be convenient, specifically if we have</p>
 </li>
 <li>a small success probability <span class="math inline">\(p\)</span>.</li>
 </ul>
-<figure align="center"><img src="fig/poisson-derivation.png" width="700" class="figure mx-auto d-block"></figure><p>An example:</p>
+<figure><img src="fig/poisson-derivation.png" alt="frog cartoon demonstrating how the Poisson is derived from the Binomial distribution" width="700" class="figure mx-auto d-block"><figcaption>The Poisson distribution is a special case of the
+binomial</figcaption></figure><p>An example:</p>
 <ul>
 <li>We now fill the net for 1h, which is for a fixed period of
 time.</li>
@@ -921,7 +925,7 @@ approximated with a Poisson distribution.</p>
 <p>Even though the Poisson is derived as an approximation of the
 Binomial, we don’t necessarily need two categories of events to use it.
 We can also use it to count events of a single category.</p>
-<figure align="center"><img src="fig/poisson-lake.png" width="350" class="figure mx-auto d-block"></figure><p>For example, consider a two lakes with frogs of only one colour. We
+<figure><img src="fig/sampling-frogs.png" alt="lake with only one sort of frogs" width="350" class="figure mx-auto d-block"><figcaption>Poisson example</figcaption></figure><p>For example, consider a two lakes with frogs of only one colour. We
 might want to compare the density of frogs in these lakes, which can be
 done by comparing the Poisson rates. For this, we count frogs within
 <span class="math inline">\(2 m^2\)</span> regions in both lakes. For
@@ -994,7 +998,7 @@ hour.<br>
   Show me the solution
   </h4>
 </button>
-<div id="collapseSolution1" class="accordion-collapse collapse" data-bs-parent="#accordionSolution1" aria-labelledby="headingSolution1">
+<div id="collapseSolution1" class="accordion-collapse collapse" aria-labelledby="headingSolution1" data-bs-parent="#accordionSolution1">
 <div class="accordion-body">
 <p>All of these scenarios can be modeled with a Poisson. Counting the
 number of positive samples out of 50 is more suitable for a binomial
@@ -1113,7 +1117,7 @@ different each time we run the code.</p>
 </div>
 </div></section><section id="aio-07-gamma-poisson"><p>Content from <a href="07-gamma-poisson.html">The Gamma-Poisson distribution</a></p>
 <hr>
-<p> Last updated on 2023-02-08 | 
+<p> Last updated on 2023-02-10 | 
         
         <a href="https://github.com/carpentries/workbench-template-rmd/edit/main/episodes/07-gamma-poisson.Rmd" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
 <div class="text-end">
@@ -1157,7 +1161,7 @@ very well, because the observed distribution is more spread out than
 expected for Poisson, that means the variance is larger than the
 mean.This is due to additional variation that we haven’t captured, or
 that we cannot control for.</p>
-<figure align="center"><img src="fig/gamma-poisson.png" width="800" class="figure mx-auto d-block"></figure><p>To stay with the frogs counts – but this time each individual frog
+<figure align="center"><img src="fig/gamma-poisson.png" width="800" class="figure mx-auto d-block"></figure><figure><img src="fig/gamma-poisson.png" alt="plots demonstrating a mixture distribution from gamma and poisson" width="800" class="figure mx-auto d-block"><figcaption>The Gamma Poisson distribution</figcaption></figure><p>To stay with the frogs counts – but this time each individual frog
 was caught from a different lake. And each lake has slightly different
 properties that affect the rate at which we can catch frogs in it. There
 might be more or less frogs in them, or better hiding places.</p>
@@ -1264,7 +1268,7 @@ function <code>var</code>.</li>
 <div class="codewrapper">
 <h3 class="code-label">OUTPUT<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
 </h3>
-<pre class="output" tabindex="0"><code>[1] 3.96</code></pre>
+<pre class="output" tabindex="0"><code>[1] 4.12</code></pre>
 </div>
 <div class="codewrapper sourceCode" id="cb3">
 <h3 class="code-label">R<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
@@ -1276,7 +1280,7 @@ function <code>var</code>.</li>
 <div class="codewrapper">
 <h3 class="code-label">OUTPUT<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
 </h3>
-<pre class="output" tabindex="0"><code>[1] 3.598384</code></pre>
+<pre class="output" tabindex="0"><code>[1] 4.218586</code></pre>
 </div>
 <div class="codewrapper sourceCode" id="cb5">
 <h3 class="code-label">R<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
@@ -1288,7 +1292,7 @@ function <code>var</code>.</li>
 <div class="codewrapper">
 <h3 class="code-label">OUTPUT<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
 </h3>
-<pre class="output" tabindex="0"><code>[1] 4.85</code></pre>
+<pre class="output" tabindex="0"><code>[1] 4.15</code></pre>
 </div>
 <div class="codewrapper sourceCode" id="cb7">
 <h3 class="code-label">R<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
@@ -1301,7 +1305,7 @@ function <code>var</code>.</li>
 <div class="codewrapper">
 <h3 class="code-label">OUTPUT<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
 </h3>
-<pre class="output" tabindex="0"><code>[1] 10.01323</code></pre>
+<pre class="output" tabindex="0"><code>[1] 12.50505</code></pre>
 </div>
 </div>
 </div>
@@ -1314,7 +1318,7 @@ any links that you are not going to use.
 </div>
 </section></section><section id="aio-08-gaussian"><p>Content from <a href="08-gaussian.html">The Gaussian distribution</a></p>
 <hr>
-<p> Last updated on 2023-02-08 | 
+<p> Last updated on 2023-02-10 | 
         
         <a href="https://github.com/carpentries/workbench-template-rmd/edit/main/episodes/08-gaussian.Rmd" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
 <div class="text-end">
@@ -1362,7 +1366,7 @@ example</p>
 </li>
 <li>pixel intensities.</li>
 </ul>
-<figure align="center"><img src="fig/frog_sizes.png" width="500" class="figure mx-auto d-block"></figure><p>The Gaussian distribution is continuous and has two parameters:</p>
+<figure><img src="fig/frog_sizes.png" alt="plot of Gaussian distribution" width="500" class="figure mx-auto d-block"><figcaption>Gaussian probability density function</figcaption></figure><p>The Gaussian distribution is continuous and has two parameters:</p>
 <ul>
 <li>the <em>mean</em>, which is estimated by the sample mean, and<br>
 </li>
@@ -1374,7 +1378,7 @@ Place links that you need to refer to multiple times across pages here. Delete
 any links that you are not going to use. 
  --></section></section><section id="aio-09-visualizing-distributions"><p>Content from <a href="09-visualizing-distributions.html">Visualizing distributions</a></p>
 <hr>
-<p> Last updated on 2023-02-08 | 
+<p> Last updated on 2023-02-10 | 
         
         <a href="https://github.com/carpentries/workbench-template-rmd/edit/main/episodes/09-visualizing-distributions.Rmd" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
 <div class="text-end">
@@ -1438,7 +1442,7 @@ produce them in R.</p>
 </section><section id="the-histogram"><h2 class="section-heading">The histogram<a class="anchor" aria-label="anchor" href="#the-histogram"></a>
 </h2>
 <hr class="half-width">
-<figure align="center"><img src="fig/histogram.png" width="800" class="figure mx-auto d-block"></figure><p>Once we have fitted a distribution to the data, we can visually
+<figure><img src="fig/histogram.png" alt="histogram plot" width="800" class="figure mx-auto d-block"></figure><p>Once we have fitted a distribution to the data, we can visually
 compare the theory, that is the fitted distribution, to the actual data
 and decide whether this is a good fit. One very common thing to look at
 is the histogram. The more data points you have, the more it resembles
@@ -1454,7 +1458,7 @@ often it’s difficult to tell subtle differences from a histogram.</p>
 <strong>For every value <span class="math inline">\(k\)</span>, the
 cumulative distribution gives the percentage of data points that have a
 smaller value than this <span class="math inline">\(k\)</span>.</strong></p>
-<figure align="center"><img src="fig/histogram-cumulative.png" width="800" class="figure mx-auto d-block"></figure><p>In this case, you can look up a certain frog size, and the graph will
+<figure><img src="fig/histogram-cumulative.png" alt="histogram and ecdf plot" width="800" class="figure mx-auto d-block"></figure><p>In this case, you can look up a certain frog size, and the graph will
 tell you what percentage of frogs is smaller than that. For example, if
 we look up the size of 6 cm, the cumulative distribution tells us that
 roughly 75% of the frogs in the sample are smaller than 6 cm. The
@@ -1472,7 +1476,7 @@ low variance.</p>
 <p>Another useful plot is the QQ-plot. It’s very often used for checking
 whether the data is normal, but it can also be used for comparing to
 other distributions.</p>
-<figure align="center"><img src="fig/histogram-cumulative-qq.png" width="800" class="figure mx-auto d-block"></figure><p>Here, we plot sample quantiles against theoretical quantiles. The
+<figure><img src="fig/histogram-cumulative-qq.png" alt="histogram, ecdf, and qq plot" width="800" class="figure mx-auto d-block"></figure><p>Here, we plot sample quantiles against theoretical quantiles. The
 25th quantile is the value <span class="math inline">\(k\)</span> at
 which 25% of the data points are smaller then k. You can determine the
 quantile for each data point, and compare it to theory, so each point in
@@ -2234,9 +2238,9 @@ any links that you are not going to use.
   "creativeWorkStatus": "active",
   "url": "https://carpentries.github.io/workbench-template-rmd/aio.html",
   "identifier": "https://carpentries.github.io/workbench-template-rmd/aio.html",
-  "dateCreated": "2023-02-08",
-  "dateModified": "2023-02-08",
-  "datePublished": "2023-02-08"
+  "dateCreated": "2023-02-10",
+  "dateModified": "2023-02-10",
+  "datePublished": "2023-02-10"
 }
 
   </script><script>
