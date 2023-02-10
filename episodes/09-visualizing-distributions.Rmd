@@ -31,9 +31,9 @@ In this episode, I'll introduce the most common visualizations for empirical dis
 
 ## The histogram
 
-<p align="center">
-<img src="fig/histogram.png" width="800"/>
-</p>
+
+
+![](fig/histogram.png){width="800px" alt="histogram plot"}
 
 Once we have fitted a distribution to the data, we can visually compare the theory, that is the fitted distribution, to the actual data and decide whether this is a good fit.
 One very common thing to look at is the histogram. The more data points you have, the more it resembles the underlying probability distribution. So we could look at this histogram here and check whether it looks similar to the Gaussian shape, shown in blue.
@@ -45,9 +45,9 @@ A problem about this plot is that, as you might have noticed already, a lot of d
 This is why it is also useful to look at the cumulative distribution. 
 **For every value $k$, the cumulative distribution gives the percentage of data points that have a smaller value than this $k$.**
 
-<p align="center">
-<img src="fig/histogram-cumulative.png" width="800"/>
-</p>
+
+
+![](fig/histogram-cumulative.png){width="800px" alt="histogram and ecdf plot"}
 
 In this case, you can look up a certain frog size, and the graph will tell you what percentage of frogs is smaller than that.
 For example, if we look up the size of 6 cm, the cumulative distribution tells us that roughly 75% of the frogs in the sample are smaller than 6 cm.
@@ -61,9 +61,8 @@ In this graph, it’s often easier to see systematic deviations from the expecta
 Another useful plot is the QQ-plot. It’s very often used for checking whether the data is normal, but it can also be used for comparing to other distributions.
 
 
-<p align="center">
-<img src="fig/histogram-cumulative-qq.png" width="800"/>
-</p>
+
+![](fig/histogram-cumulative-qq.png){width="800px" alt="histogram, ecdf, and qq plot"}
 
 Here, we plot sample quantiles against theoretical quantiles. The 25th quantile is the value $k$ at which 25% of the data points are smaller then k. You can determine the quantile for each data point, and compare it to theory, so each point in this plot is a comparison between theory and data.
 The nice thing about this plot is that when the theory and data match well, all points end up on a straight line. And it’s easy for our eyes to decide whether something is a straight line or not.

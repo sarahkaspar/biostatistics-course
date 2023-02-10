@@ -29,6 +29,8 @@ The binomial distribution is what we have just seen in the example: We use it wh
 <img src="fig/sampling-frogs-2.png" width="500"/>
 </p>
 
+![](fig/sampling-frogs-2.png){width="500px" alt="possible outcomes of sampling 10 frogs"}
+
 The binomial model has two parameters, which means the probabilities for the individual outcomes depend on two things: 
 - $n$ is the number of trials, or frogs, or patients, and it’s fixed.
 - $p$ is the success probability.
@@ -47,9 +49,8 @@ In the binomial we just define a particular outcome as success, for example a li
 Here is what the distribution looks like for a success probability of 0.3 and a sample size of 10. 
 
 
-<p align="center">
-<img src="fig/binomial.png" width="500"/>
-</p>
+
+![The binomial distribution](fig/binomial.png){width="500px" alt="example graph for binomial probability distribution"}
 
 
 The expected value of the binomial is $n \times p$, which is quite intuitive: If we catch 10 frogs and the probability of being light-green is 0.3, then we expect to catch 3 light-green frogs on average.

@@ -28,9 +28,7 @@ It is applicable to repeated measurements of the same thing, for example
 - pixel intensities.  
 
 
-<p align="center">
-<img src="fig/frog_sizes.png" width="500"/>
-</p>
+![Gaussian probability density function](fig/frog_sizes.png){width="500px" alt="plot of Gaussian distribution"}
 
 The Gaussian distribution is continuous and has two parameters:  
 
