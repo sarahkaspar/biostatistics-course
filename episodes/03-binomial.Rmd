@@ -25,9 +25,6 @@ The binomial distribution is what we have just seen in the example: We use it wh
 - how many patients out of 100 have a certain disease
 - how many out of 10 frogs are light green
 
-<p align="center">
-<img src="fig/sampling-frogs-2.png" width="500"/>
-</p>
 
 ![](fig/sampling-frogs-2.png){width="500px" alt="possible outcomes of sampling 10 frogs"}
 

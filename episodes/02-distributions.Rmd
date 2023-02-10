@@ -51,7 +51,7 @@ Answers 1 and 2 are correct. To 3: If experiments are not randomized, the result
 ::::::::::::::::::::::::::::::::::::::::::
 
 
-![Types of probability distributions](fig/distributions-1.png){width="500px" alt="example graphs for discrete and continuous probability distributions"}
+![Types of probability distributions](fig/distributions-1.png){width="800px" alt="example graphs for discrete and continuous probability distributions"}
 
 
 
