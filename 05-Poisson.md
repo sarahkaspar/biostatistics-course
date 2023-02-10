@@ -25,9 +25,7 @@ There is an approximation for the binomial distribution which can often be conve
 - a small success probability $p$.  
 
 
-<p align="center">
-<img src="fig/poisson-derivation.png" width="700"/>
-</p>
+![The Poisson distribution is a special case of the binomial](fig/poisson-derivation.png){width="700px" alt="frog cartoon demonstrating how the Poisson is derived from the Binomial distribution"}
 
 An example: 
 
@@ -48,9 +46,7 @@ In this scenario **we have reduced the parameters to just one, the rate lambda**
 Even though the Poisson is derived as an approximation of the Binomial, we don't necessarily need two categories of events to use it. We can also use it to count events of a single category. 
 
 
-<p align="center">
-<img src="fig/poisson-lake.png" width="350"/>
-</p>
+![Poisson example](fig/sampling-frogs.png){width="350px" alt="lake with only one sort of frogs"}
 
 For example, consider a two lakes with frogs of only one colour. We might want to compare the density of frogs in these lakes, which can be done by comparing the Poisson rates. For this, we count frogs within $2 m^2$ regions in both lakes. For each individual lake, this counting process could be described by a Poisson, with the rate giving the average number of frogs per $2 m^2$. 
 

@@ -27,6 +27,8 @@ In biology we often have the problem that the Poisson doesn’t fit very well, b
 <img src="fig/gamma-poisson.png" width="800"/>
 </p>
 
+![The Gamma Poisson distribution](fig/gamma-poisson.png){width="800px" alt="plots demonstrating a mixture distribution from gamma and poisson"}
+
 To stay with the frogs counts -- but this time each individual frog was caught from a different lake.
 And each lake has slightly different properties that affect the rate at which we can catch frogs in it. There might be more or less frogs in them, or better hiding places.
 
@@ -82,7 +84,7 @@ rpois(n=100, lambda = 4) %>% mean()
 ```
 
 ```{.output}
-[1] 3.96
+[1] 4.12
 ```
 
 ```r
@@ -91,7 +93,7 @@ rpois(n=100, lambda = 4) %>% var()
 ```
 
 ```{.output}
-[1] 3.598384
+[1] 4.218586
 ```
 
 ```r
@@ -100,7 +102,7 @@ rnbinom(n=100, mu=4, size=2) %>%  mean()
 ```
 
 ```{.output}
-[1] 4.85
+[1] 4.15
 ```
 
 ```r
@@ -110,7 +112,7 @@ rnbinom(n=100, mu=4, size=2) %>%
 ```
 
 ```{.output}
-[1] 10.01323
+[1] 12.50505
 ```
 
 :::::::::::::::::::::::::::::
