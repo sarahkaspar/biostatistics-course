@@ -29,7 +29,7 @@
       "Package": "MASS",
       "Version": "7.3-58.2",
       "Source": "Repository",
-      "Repository": "RSPM",
+      "Repository": "CRAN",
       "Hash": "e02d1a0f6122fd3e634b25b433704344",
       "Requirements": []
     },
@@ -196,7 +196,7 @@
       "Package": "cli",
       "Version": "3.6.0",
       "Source": "Repository",
-      "Repository": "CRAN",
+      "Repository": "RSPM",
       "Hash": "3177a5a16c243adc199ba33117bd9657",
       "Requirements": []
     },
@@ -342,7 +342,7 @@
       "Package": "fansi",
       "Version": "1.0.4",
       "Source": "Repository",
-      "Repository": "CRAN",
+      "Repository": "RSPM",
       "Hash": "1d9e7ad3c8312a192dea7d3db0274fde",
       "Requirements": []
     },
@@ -746,7 +746,7 @@
       "Package": "nlme",
       "Version": "3.1-162",
       "Source": "Repository",
-      "Repository": "RSPM",
+      "Repository": "CRAN",
       "Hash": "0984ce8da8da9ead8643c5cbbb60f83e",
       "Requirements": [
         "lattice"
@@ -1027,10 +1027,7 @@
       "Package": "stringi",
       "Version": "1.7.12",
       "Source": "Repository",
-      "Repository": "https://carpentries.r-universe.dev",
-      "RemoteUrl": "https://github.com/gagolews/stringi",
-      "RemoteRef": "v1.7.12",
-      "RemoteSha": "e4cf3176bc3943e6c477885be3445cbbd7d4bab6",
+      "Repository": "RSPM",
       "Hash": "ca8bd84263c77310739d2cf64d84d7c9",
       "Requirements": []
     },
@@ -1220,7 +1217,7 @@
       "Package": "vctrs",
       "Version": "0.5.2",
       "Source": "Repository",
-      "Repository": "CRAN",
+      "Repository": "RSPM",
       "Hash": "e4ffa94ceed5f124d429a5a5f0f5b378",
       "Requirements": [
         "cli",
