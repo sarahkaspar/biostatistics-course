@@ -69,8 +69,7 @@ In this data frame, the number of hits among the 50 patients is counted at each 
 Load the mice data:
 
 ```r
-mice_pheno <- read.csv2(file= url("https://raw.githubusercontent.com/genomicsclass/dagdata/master/inst/extdata/mice_pheno.csv"), sep=",")
-mice_pheno$Bodyweight <- as.numeric(mice_pheno$Bodyweight)
+mice_pheno <- read_csv(file= url("https://raw.githubusercontent.com/genomicsclass/dagdata/master/inst/extdata/mice_pheno.csv"))
 ```
 
 1. Plot a histogram, and a normal-QQ plot for female control mice. Would you say the weights follow a normal distribution?
