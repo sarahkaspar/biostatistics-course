@@ -1,6 +1,6 @@
 {
   "R": {
-    "Version": "4.2.3",
+    "Version": "4.3.0",
     "Repositories": [
       {
         "Name": "carpentries",
@@ -289,10 +289,7 @@
       "Package": "curl",
       "Version": "5.0.0",
       "Source": "Repository",
-      "Repository": "https://carpentries.r-universe.dev",
-      "RemoteUrl": "https://github.com/jeroen/curl",
-      "RemoteRef": "v5.0.0",
-      "RemoteSha": "4ba39ef7082c2eb14ff621df95008278a7e46466",
+      "Repository": "CRAN",
       "Requirements": [
         "R"
       ],
@@ -1209,10 +1206,7 @@
       "Package": "stringi",
       "Version": "1.7.12",
       "Source": "Repository",
-      "Repository": "https://carpentries.r-universe.dev",
-      "RemoteUrl": "https://github.com/gagolews/stringi",
-      "RemoteRef": "v1.7.12",
-      "RemoteSha": "e4cf3176bc3943e6c477885be3445cbbd7d4bab6",
+      "Repository": "CRAN",
       "Requirements": [
         "R",
         "stats",
@@ -1505,10 +1499,7 @@
       "Package": "xml2",
       "Version": "1.3.3",
       "Source": "Repository",
-      "Repository": "https://carpentries.r-universe.dev",
-      "RemoteUrl": "https://github.com/r-lib/xml2",
-      "RemoteRef": "v1.3.3",
-      "RemoteSha": "71eac14ecff168232c85995378816aafc630c417",
+      "Repository": "CRAN",
       "Requirements": [
         "R",
         "methods"
