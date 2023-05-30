@@ -530,13 +530,13 @@ catches) which can have two outcomes (light, dark).</p>
 likely outcome is catching 3 light frogs. Seeing 10 light frogs is
 rather unlikely: The probability is close to zero, and we would consider
 this a rare event.</p>
-<figure><img src="../fig/sampling-frogs-3.png" alt="graph showing probability distribution of frog catches" width="500" class="figure mx-auto d-block"><figcaption>Sampling probabilities</figcaption></figure><div id="challenge1" class="callout challenge">
+<figure><img src="../fig/sampling-frogs-3.png" alt="graph showing probability distribution of frog catches" width="500" class="figure mx-auto d-block"><figcaption>Sampling probabilities</figcaption></figure><div id="challenge-which-of-the-following-statements-are-true" class="callout challenge">
 <div class="callout-square">
 <i class="callout-icon" data-feather="zap"></i>
 </div>
 <div id="challenge-which-of-the-following-statements-are-true" class="callout-inner">
 <h3 class="callout-title">Challenge: Which of the following statements
-are true?<a class="anchor" aria-label="anchor" href="#challenge1"></a>
+are true?<a class="anchor" aria-label="anchor" href="#challenge-which-of-the-following-statements-are-true"></a>
 </h3>
 <div class="callout-content">
 <ol style="list-style-type: decimal">
@@ -559,7 +559,7 @@ statistical distribution.</li>
   Show me the solution
   </h4>
 </button>
-<div id="collapseSolution1" class="accordion-collapse collapse" aria-labelledby="headingSolution1" data-bs-parent="#accordionSolution1">
+<div id="collapseSolution1" class="accordion-collapse collapse" data-bs-parent="#accordionSolution1" aria-labelledby="headingSolution1">
 <div class="accordion-body">
 <p>Answers 1 and 2 are correct. To 3: If experiments are not randomized,
 the results still follow some distribution, but they are likely to not
@@ -587,12 +587,12 @@ for example a frog size of exactly 9cm is zero. What makes sense instead
 is to ask for the probability of an observation to fall into a certain
 interval, for example between 8 and 10 cm, and we get this probability
 from integrating over the probability density function.</p>
-<div id="challenge2" class="callout challenge">
+<div id="challenge-discrete-distributions" class="callout challenge">
 <div class="callout-square">
 <i class="callout-icon" data-feather="zap"></i>
 </div>
 <div id="challenge-discrete-distributions" class="callout-inner">
-<h3 class="callout-title">Challenge: Discrete distributions<a class="anchor" aria-label="anchor" href="#challenge2"></a>
+<h3 class="callout-title">Challenge: Discrete distributions<a class="anchor" aria-label="anchor" href="#challenge-discrete-distributions"></a>
 </h3>
 <div class="callout-content">
 <p>What is the probability of an outcome of X=1.5 in a discrete
@@ -612,7 +612,7 @@ distribution?</p>
   Show me the solution
   </h4>
 </button>
-<div id="collapseSolution2" class="accordion-collapse collapse" aria-labelledby="headingSolution2" data-bs-parent="#accordionSolution2">
+<div id="collapseSolution2" class="accordion-collapse collapse" data-bs-parent="#accordionSolution2" aria-labelledby="headingSolution2">
 <div class="accordion-body">
 <p>The value <span class="math inline">\(1.5\)</span> is not discrete,
 and can therefore not occur in a discrete distribution. Its probability
@@ -761,7 +761,9 @@ always include the parameters of that function.</p>
 <hr class="half-width">
 <p>Let’s use the example where we caught 10 frogs and count how many of
 them are light-colored.</p>
-<figure align="center"><img src="../fig/sampling-frogs-2.png" width="500" class="figure mx-auto d-block"></figure><p>For known parameters, we can calculate the the chances of counting
+<p align="center">
+<img src="../fig/sampling-frogs-2.png" width="500" class="figure"></p>
+<p>For known parameters, we can calculate the the chances of counting
 exactly 5 light-colored frogs:</p>
 <div class="codewrapper sourceCode" id="cb1">
 <h3 class="code-label">R<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
@@ -804,12 +806,12 @@ light frogs:</p>
 <pre class="output" tabindex="0"><code>[1] 0.04734899</code></pre>
 </div>
 <p>Catching at least 5 light frogs is a rare event.</p>
-<div id="challenge1" class="callout challenge">
+<div id="challenge-disease-prevalence" class="callout challenge">
 <div class="callout-square">
 <i class="callout-icon" data-feather="zap"></i>
 </div>
 <div id="challenge-disease-prevalence" class="callout-inner">
-<h3 class="callout-title">Challenge: Disease prevalence<a class="anchor" aria-label="anchor" href="#challenge1"></a>
+<h3 class="callout-title">Challenge: Disease prevalence<a class="anchor" aria-label="anchor" href="#challenge-disease-prevalence"></a>
 </h3>
 <div class="callout-content">
 <p>There is a disease with a known prevalence of 4%. You have a group of
@@ -830,7 +832,7 @@ disease.</li>
   Show me the solution
   </h4>
 </button>
-<div id="collapseSolution1" class="accordion-collapse collapse" data-bs-parent="#accordionSolution1" aria-labelledby="headingSolution1">
+<div id="collapseSolution1" class="accordion-collapse collapse" aria-labelledby="headingSolution1" data-bs-parent="#accordionSolution1">
 <div class="accordion-body">
 <ol style="list-style-type: decimal">
 <li>Exactly 7 persons:</li>
@@ -977,7 +979,9 @@ events over whatever fixed domain you have chosen is</p>
 .\]</span></p>
 <p>In the next plot, Poisson distributions for different rates are
 shown:</p>
-<figure align="center"><img src="../fig/many_lambdas_plot.png" width="400" class="figure mx-auto d-block"></figure><p>If we look at the shape of the distribution, we see that</p>
+<p align="center">
+<img src="../fig/many_lambdas_plot.png" width="400" class="figure"></p>
+<p>If we look at the shape of the distribution, we see that</p>
 <ul>
 <li>for low rates, it is clinched towards zero and has long tails
 towards larger values.</li>
@@ -1093,12 +1097,12 @@ gives an initialization to the process of drawing random numbers. So any
 time we run the same simulation with the same seed, we will get the same
 random numbers. If we don’t set the seed, the random numbers will look
 different each time we run the code.</p>
-<div id="challenge1" class="callout challenge">
+<div id="poisson-random-numbers" class="callout challenge">
 <div class="callout-square">
 <i class="callout-icon" data-feather="zap"></i>
 </div>
 <div id="poisson-random-numbers" class="callout-inner">
-<h3 class="callout-title">Poisson random numbers<a class="anchor" aria-label="anchor" href="#challenge1"></a>
+<h3 class="callout-title">Poisson random numbers<a class="anchor" aria-label="anchor" href="#poisson-random-numbers"></a>
 </h3>
 <div class="callout-content">
 <ol style="list-style-type: decimal">
@@ -1183,7 +1187,9 @@ very well, because the observed distribution is more spread out than
 expected for Poisson, that means the variance is larger than the
 mean.This is due to additional variation that we haven’t captured, or
 that we cannot control for.</p>
-<figure align="center"><img src="../fig/gamma-poisson.png" width="800" class="figure mx-auto d-block"></figure><figure><img src="../fig/gamma-poisson.png" alt="plots demonstrating a mixture distribution from gamma and poisson" width="800" class="figure mx-auto d-block"><figcaption>The Gamma Poisson distribution</figcaption></figure><p>To stay with the frogs counts – but this time each individual frog
+<p align="center">
+<img src="../fig/gamma-poisson.png" width="800" class="figure"></p>
+<figure><img src="../fig/gamma-poisson.png" alt="plots demonstrating a mixture distribution from gamma and poisson" width="800" class="figure mx-auto d-block"><figcaption>The Gamma Poisson distribution</figcaption></figure><p>To stay with the frogs counts – but this time each individual frog
 was caught from a different lake. And each lake has slightly different
 properties that affect the rate at which we can catch frogs in it. There
 might be more or less frogs in them, or better hiding places.</p>
@@ -1230,12 +1236,12 @@ the inverse of <span class="math inline">\(\theta\)</span>, that is for
 a small <code>size</code> you will get a distribution with a large
 overdispersion (=spread). For very large values of <code>size</code>,
 the distribution will tend towards a Poisson distribution.</p>
-<div id="callout1" class="callout callout">
+<div id="note" class="callout callout">
 <div class="callout-square">
 <i class="callout-icon" data-feather="bell"></i>
 </div>
 <div id="note" class="callout-inner">
-<h3 class="callout-title">Note<a class="anchor" aria-label="anchor" href="#callout1"></a>
+<h3 class="callout-title">Note<a class="anchor" aria-label="anchor" href="#note"></a>
 </h3>
 <div class="callout-content">
 <p>Consult the “Details” in the help function
@@ -1244,13 +1250,13 @@ way.</p>
 </div>
 </div>
 </div>
-<div id="challenge1" class="callout challenge">
+<div id="compare-gamma-poisson-to-the-poisson-distribution" class="callout challenge">
 <div class="callout-square">
 <i class="callout-icon" data-feather="zap"></i>
 </div>
 <div id="compare-gamma-poisson-to-the-poisson-distribution" class="callout-inner">
 <h3 class="callout-title">Compare Gamma poisson to the Poisson
-distribution<a class="anchor" aria-label="anchor" href="#challenge1"></a>
+distribution<a class="anchor" aria-label="anchor" href="#compare-gamma-poisson-to-the-poisson-distribution"></a>
 </h3>
 <div class="callout-content">
 <p>To demonstrate how the Gamma Poisson distribution differs from a
@@ -1508,12 +1514,12 @@ this plot is a comparison between theory and data. The nice thing about
 this plot is that when the theory and data match well, all points end up
 on a straight line. And it’s easy for our eyes to decide whether
 something is a straight line or not.</p>
-<div id="callout1" class="callout callout">
+<div id="a-note-on-fitting" class="callout callout">
 <div class="callout-square">
 <i class="callout-icon" data-feather="bell"></i>
 </div>
 <div id="a-note-on-fitting" class="callout-inner">
-<h3 class="callout-title">A note on fitting<a class="anchor" aria-label="anchor" href="#callout1"></a>
+<h3 class="callout-title">A note on fitting<a class="anchor" aria-label="anchor" href="#a-note-on-fitting"></a>
 </h3>
 <div class="callout-content">
 <p>When we say we “fit” a distribution, we are usually talking about the
@@ -1601,12 +1607,12 @@ distribution:</p>
 <span>  <span class="fu">ggplot</span><span class="op">(</span><span class="fu">aes</span><span class="op">(</span>x<span class="op">=</span><span class="va">frog_counts</span><span class="op">)</span><span class="op">)</span><span class="op">+</span></span>
 <span>  <span class="fu">geom_histogram</span><span class="op">(</span>binwidth<span class="op">=</span><span class="fl">1</span><span class="op">)</span></span></code></pre>
 </div>
-<figure><img src="../fig/10-histogram-rendered-histograms-1.png" style="display: block; margin: auto;" class="figure mx-auto d-block"></figure><div id="challenge1" class="callout challenge">
+<figure><img src="../fig/10-histogram-rendered-histograms-1.png" style="display: block; margin: auto;" class="figure mx-auto d-block"></figure><div id="exercise-plot-your-first-histogram" class="callout challenge">
 <div class="callout-square">
 <i class="callout-icon" data-feather="zap"></i>
 </div>
 <div id="exercise-plot-your-first-histogram" class="callout-inner">
-<h3 class="callout-title">Exercise: Plot your first histogram<a class="anchor" aria-label="anchor" href="#challenge1"></a>
+<h3 class="callout-title">Exercise: Plot your first histogram<a class="anchor" aria-label="anchor" href="#exercise-plot-your-first-histogram"></a>
 </h3>
 <div class="callout-content">
 <p>Start with the following set-up:</p>
@@ -1629,7 +1635,7 @@ data. What happens if you don’t?</p>
   Show me the solution
   </h4>
 </button>
-<div id="collapseSolution1" class="accordion-collapse collapse" aria-labelledby="headingSolution1" data-bs-parent="#accordionSolution1">
+<div id="collapseSolution1" class="accordion-collapse collapse" data-bs-parent="#accordionSolution1" aria-labelledby="headingSolution1">
 <div class="accordion-body">
 <p>An automatic bin-width of 30 is chosen. Decide for yourself whether
 this gives you a good overview over your data. It’s often a good idea to
@@ -1695,12 +1701,12 @@ Here, we fit the frog counts to a Poisson:</p>
 </div>
 <figure><img src="../fig/10-histogram-rendered-goodfit-1.png" style="display: block; margin: auto;" class="figure mx-auto d-block"></figure><p>This is how a good fit looks like: The bars all roughly stop at zero,
 some above and some below, which is due to the sample’s randomness.</p>
-<div id="discussion1" class="callout discussion">
+<div id="exercise-fit-a-poisson-distribution" class="callout discussion">
 <div class="callout-square">
 <i class="callout-icon" data-feather="message-circle"></i>
 </div>
 <div id="exercise-fit-a-poisson-distribution" class="callout-inner">
-<h3 class="callout-title">Exercise: Fit a Poisson distribution<a class="anchor" aria-label="anchor" href="#discussion1"></a>
+<h3 class="callout-title">Exercise: Fit a Poisson distribution<a class="anchor" aria-label="anchor" href="#exercise-fit-a-poisson-distribution"></a>
 </h3>
 <div class="callout-content">
 <p>Start with the following set-up:</p>
@@ -1720,12 +1726,12 @@ some above and some below, which is due to the sample’s randomness.</p>
 systematic problem: The bars at the periphery hang very low and those
 around the peaks hang high. This indicates that the fit isn’t too
 good.</p>
-<div id="discussion2" class="callout discussion">
+<div id="exercise-fit-a-gamma-poisson" class="callout discussion">
 <div class="callout-square">
 <i class="callout-icon" data-feather="message-circle"></i>
 </div>
 <div id="exercise-fit-a-gamma-poisson" class="callout-inner">
-<h3 class="callout-title">Exercise: Fit a Gamma-Poisson<a class="anchor" aria-label="anchor" href="#discussion2"></a>
+<h3 class="callout-title">Exercise: Fit a Gamma-Poisson<a class="anchor" aria-label="anchor" href="#exercise-fit-a-gamma-poisson"></a>
 </h3>
 <div class="callout-content">
 <p>Start with the following set-up:</p>
@@ -1818,12 +1824,12 @@ cumulative distribution and add them to the plot:</p>
 <figure><img src="../fig/11-cdf-rendered-ecdf-cdf-plot-1.png" style="display: block; margin: auto;" class="figure mx-auto d-block"></figure><p>Off this plot you can read for a frog size of <span class="math inline">\(x\)</span> (e.g. 7cm), that about 50% of the
 values are smaller than this value. So this is really just another way
 to display the histogram.</p>
-<div id="callout1" class="callout callout">
+<div id="note" class="callout callout">
 <div class="callout-square">
 <i class="callout-icon" data-feather="bell"></i>
 </div>
 <div id="note" class="callout-inner">
-<h3 class="callout-title">Note<a class="anchor" aria-label="anchor" href="#callout1"></a>
+<h3 class="callout-title">Note<a class="anchor" aria-label="anchor" href="#note"></a>
 </h3>
 <div class="callout-content">
 <p>The procedure above was shown for demonstration purposes. We will not
@@ -2243,9 +2249,9 @@ any links that you are not going to use.
         <p>Materials licensed under <a href="../LICENSE.html">CC-BY 4.0</a> by the authors</p>
         
         <p><a href="https://creativecommons.org/licenses/by-sa/4.0/" class="external-link">Template licensed under CC-BY 4.0</a> by <a href="https://carpentries.org" class="external-link">The Carpentries</a></p>
-        <p>Built with <a href="https://github.com/carpentries/sandpaper/tree/0.11.16" class="external-link">sandpaper (0.11.16)</a>,
+        <p>Built with <a href="https://github.com/carpentries/sandpaper/tree/0.12.2" class="external-link">sandpaper (0.12.2)</a>,
         <a href="https://github.com/carpentries/pegboard" class="external-link">pegboard (0.5.3)</a>,
-      and <a href="https://github.com/carpentries/varnish/tree/0.2.16" class="external-link">varnish (0.2.16)</a>.</p>
+      and <a href="https://github.com/carpentries/varnish/tree/0.2.17" class="external-link">varnish (0.2.17)</a>.</p>
 			</div>
 		</footer>
 </div> <!-- / div.container -->
@@ -2267,8 +2273,8 @@ any links that you are not going to use.
   "url": "https://carpentries.github.io/workbench-template-rmd/instructor/aio.html",
   "identifier": "https://carpentries.github.io/workbench-template-rmd/instructor/aio.html",
   "dateCreated": "2023-05-02",
-  "dateModified": "2023-05-16",
-  "datePublished": "2023-05-16"
+  "dateModified": "2023-05-30",
+  "datePublished": "2023-05-30"
 }
 
   </script><script>
