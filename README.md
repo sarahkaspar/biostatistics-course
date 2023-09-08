@@ -1,10 +1,13 @@
-# The Carpentries Workbench Template R Markdown Lesson
+# Lesson on statistical distributions in R for biologists
 
-This lesson is a template lesson that uses [The Carpentries Workbench][workbench].
 
-To get started using this template, make sure you're logged into Github and visit https://github.com/carpentries/workbench-template-rmd/generate
-and follow the instructions.
+This lesson on categorical data can be taught in ~2 hours. 
+I'm using the [carpentries workbench](https://carpentries.github.io/workbench/) for creating these online materials. 
+The materials are meant  
+- for self-learning
+- to be used by other trainers
+- to document the R-code for the figues
 
-If you have any questions, contact [@zkamvar](https://github.com/zkamvar)
+In practice, I use slides for teaching. 
 
-[workbench]: https://carpentries.github.io/sandpaper-docs/
+Have a look at the [compiled materials](sarahkaspar.github.io/categorical-data).
