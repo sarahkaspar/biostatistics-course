@@ -10,4 +10,4 @@ The materials are meant
 
 In practice, I use slides for teaching. 
 
-Have a look at the [compiled materials](sarahkaspar.github.io/categorical-data).
+Have a look at the [compiled materials](sarahkaspar.github.io/biostatistics-course).
