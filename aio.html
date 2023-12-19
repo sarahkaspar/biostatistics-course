@@ -57,7 +57,7 @@
     </div>
   </div>
   <hr></header><nav class="navbar navbar-expand-xl navbar-light bg-white bottom-nav incubator" aria-label="Main Navigation"><div class="container-fluid nav-container">
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle Navigation">
       <span class="navbar-toggler-icon"></span>
       <span class="menu-title">Menu</span>
     </button>
@@ -69,7 +69,7 @@
     </div>
     <div class="search-icon-sm">
       <!-- TODO: do not show until we have search
-      <i role="img" aria-label="search button" data-feather="search"></i>
+        <i role="img" aria-label="search button" data-feather="search"></i>
       -->
     </div>
     <div class="desktop-nav">
@@ -123,7 +123,7 @@
         <!-- START: inst/pkgdown/templates/navbar.html -->
 <div id="sidebar-col" class="col-lg-4">
   <div id="sidebar" class="sidebar">
-      <nav aria-labelledby="flush-headingEleven"><button role="button" aria-label="close menu" alt="close menu" aria-expanded="true" aria-controls="sidebar" class="collapse-toggle">
+      <nav aria-labelledby="flush-headingEleven"><button role="button" aria-label="close menu" alt="close menu" aria-expanded="true" aria-controls="sidebar" class="collapse-toggle" data-collapse="Collapse " data-episodes="Episodes ">
           <i class="search-icon" data-feather="x" role="img"></i>
         </button>
         <div class="sidebar-inner">
@@ -166,15 +166,14 @@
               <div id="flush-collapseEleven" class="accordion-collapse show collapse" aria-labelledby="flush-headingEleven" data-bs-parent="#accordionFlush11">
 
                 <div class="accordion-body">
-                  <div class="accordion accordion-flush" id="accordionFlush1">
+                  <?xml version="1.0" encoding="UTF-8"?><div class="accordion accordion-flush" id="accordionFlush1">
   <div class="accordion-item">
     <div class="accordion-header" id="flush-heading1">
-        <a href="index.html">Summary and Setup</a>
+      <a href="index.html">Summary and Setup</a>
     </div>
-<!--/div.accordion-header-->
-        
+    <!--/div.accordion-header-->
   </div>
-<!--/div.accordion-item-->
+  <!--/div.accordion-item-->
 </div>
 <!--/div.accordion-flush-->
 
@@ -402,11 +401,11 @@
         
 <section id="aio-01-sampling"><p>Content from <a href="01-sampling.html">What is sampling</a></p>
 <hr>
-<p> Last updated on 2023-11-21 | 
+<p>Last updated on 2023-11-21 |
         
         <a href="https://github.com/carpentries/workbench-template-rmd/edit/main/episodes/01-sampling.Rmd" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
 <div class="text-end">
-          <button role="button" aria-pressed="false" tabindex="0" id="expand-code" class="pull-right"> Expand All Solutions <i aria-hidden="true" data-feather="plus"></i></button>
+          <button role="button" aria-pressed="false" tabindex="0" id="expand-code" class="pull-right" data-expand="Expand All Solutions " data-collapse="Collapse All Solutions "> Expand All Solutions <i aria-hidden="true" data-feather="plus"></i></button>
         </div>
 <div class="overview card">
 <h2 class="card-header">Overview</h2>
@@ -459,11 +458,11 @@ likely to over-represent one colour of frogs, and the reason why
 observations shouldn’t depend on each other. The <strong>sample
 size</strong> is the number of frogs in one sample.</p></section><section id="aio-02-distributions"><p>Content from <a href="02-distributions.html">What is a probability distribution?</a></p>
 <hr>
-<p> Last updated on 2023-11-21 | 
+<p>Last updated on 2023-11-21 |
         
         <a href="https://github.com/carpentries/workbench-template-rmd/edit/main/episodes/02-distributions.Rmd" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
 <div class="text-end">
-          <button role="button" aria-pressed="false" tabindex="0" id="expand-code" class="pull-right"> Expand All Solutions <i aria-hidden="true" data-feather="plus"></i></button>
+          <button role="button" aria-pressed="false" tabindex="0" id="expand-code" class="pull-right" data-expand="Expand All Solutions " data-collapse="Collapse All Solutions "> Expand All Solutions <i aria-hidden="true" data-feather="plus"></i></button>
         </div>
 <div class="overview card">
 <h2 class="card-header">Overview</h2>
@@ -541,11 +540,9 @@ statistical distribution.</li>
 <div id="accordionSolution1" class="accordion challenge-accordion accordion-flush">
 <div class="accordion-item">
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution1" aria-expanded="false" aria-controls="collapseSolution1">
-  <h4 class="accordion-header" id="headingSolution1">
-  Show me the solution
-  </h4>
+  <h4 class="accordion-header" id="headingSolution1">Show me the solution</h4>
 </button>
-<div id="collapseSolution1" class="accordion-collapse collapse" data-bs-parent="#accordionSolution1" aria-labelledby="headingSolution1">
+<div id="collapseSolution1" class="accordion-collapse collapse" aria-labelledby="headingSolution1" data-bs-parent="#accordionSolution1">
 <div class="accordion-body">
 <p>Answers 1 and 2 are correct. To 3: If experiments are not randomized,
 the results still follow some distribution, but they are likely to not
@@ -594,11 +591,9 @@ distribution?</p>
 <div id="accordionSolution2" class="accordion challenge-accordion accordion-flush">
 <div class="accordion-item">
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution2" aria-expanded="false" aria-controls="collapseSolution2">
-  <h4 class="accordion-header" id="headingSolution2">
-  Show me the solution
-  </h4>
+  <h4 class="accordion-header" id="headingSolution2">Show me the solution</h4>
 </button>
-<div id="collapseSolution2" class="accordion-collapse collapse" data-bs-parent="#accordionSolution2" aria-labelledby="headingSolution2">
+<div id="collapseSolution2" class="accordion-collapse collapse" aria-labelledby="headingSolution2" data-bs-parent="#accordionSolution2">
 <div class="accordion-body">
 <p>The value <span class="math inline">\(1.5\)</span> is not discrete,
 and can therefore not occur in a discrete distribution. Its probability
@@ -613,11 +608,11 @@ any links that you are not going to use.
  -->
 </section></section><section id="aio-03-binomial"><p>Content from <a href="03-binomial.html">The binomial distribution</a></p>
 <hr>
-<p> Last updated on 2023-11-21 | 
+<p>Last updated on 2023-11-21 |
         
         <a href="https://github.com/carpentries/workbench-template-rmd/edit/main/episodes/03-binomial.Rmd" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
 <div class="text-end">
-          <button role="button" aria-pressed="false" tabindex="0" id="expand-code" class="pull-right"> Expand All Solutions <i aria-hidden="true" data-feather="plus"></i></button>
+          <button role="button" aria-pressed="false" tabindex="0" id="expand-code" class="pull-right" data-expand="Expand All Solutions " data-collapse="Collapse All Solutions "> Expand All Solutions <i aria-hidden="true" data-feather="plus"></i></button>
         </div>
 <div class="overview card">
 <h2 class="card-header">Overview</h2>
@@ -690,11 +685,11 @@ that may not be a favourable outcome.</p>
 the probability of being light-green is 0.3, then we expect to catch 3
 light-green frogs on average.</p></section><section id="aio-04-distributions-R"><p>Content from <a href="04-distributions-R.html">Probability distributions in R</a></p>
 <hr>
-<p> Last updated on 2023-11-21 | 
+<p>Last updated on 2023-11-21 |
         
         <a href="https://github.com/carpentries/workbench-template-rmd/edit/main/episodes/04-distributions-R.Rmd" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
 <div class="text-end">
-          <button role="button" aria-pressed="false" tabindex="0" id="expand-code" class="pull-right"> Expand All Solutions <i aria-hidden="true" data-feather="plus"></i></button>
+          <button role="button" aria-pressed="false" tabindex="0" id="expand-code" class="pull-right" data-expand="Expand All Solutions " data-collapse="Collapse All Solutions "> Expand All Solutions <i aria-hidden="true" data-feather="plus"></i></button>
         </div>
 <div class="overview card">
 <h2 class="card-header">Overview</h2>
@@ -812,9 +807,7 @@ disease.</li>
 <div id="accordionSolution1" class="accordion challenge-accordion accordion-flush">
 <div class="accordion-item">
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution1" aria-expanded="false" aria-controls="collapseSolution1">
-  <h4 class="accordion-header" id="headingSolution1">
-  Show me the solution
-  </h4>
+  <h4 class="accordion-header" id="headingSolution1">Show me the solution</h4>
 </button>
 <div id="collapseSolution1" class="accordion-collapse collapse" aria-labelledby="headingSolution1" data-bs-parent="#accordionSolution1">
 <div class="accordion-body">
@@ -856,11 +849,11 @@ any links that you are not going to use.
  -->
 </section></section><section id="aio-05-Poisson"><p>Content from <a href="05-Poisson.html">The Poisson distribution</a></p>
 <hr>
-<p> Last updated on 2023-11-21 | 
+<p>Last updated on 2023-11-21 |
         
         <a href="https://github.com/carpentries/workbench-template-rmd/edit/main/episodes/05-Poisson.Rmd" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
 <div class="text-end">
-          <button role="button" aria-pressed="false" tabindex="0" id="expand-code" class="pull-right"> Expand All Solutions <i aria-hidden="true" data-feather="plus"></i></button>
+          <button role="button" aria-pressed="false" tabindex="0" id="expand-code" class="pull-right" data-expand="Expand All Solutions " data-collapse="Collapse All Solutions "> Expand All Solutions <i aria-hidden="true" data-feather="plus"></i></button>
         </div>
 <div class="overview card">
 <h2 class="card-header">Overview</h2>
@@ -1001,11 +994,9 @@ hour.<br>
 <div id="accordionSolution1" class="accordion challenge-accordion accordion-flush">
 <div class="accordion-item">
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution1" aria-expanded="false" aria-controls="collapseSolution1">
-  <h4 class="accordion-header" id="headingSolution1">
-  Show me the solution
-  </h4>
+  <h4 class="accordion-header" id="headingSolution1">Show me the solution</h4>
 </button>
-<div id="collapseSolution1" class="accordion-collapse collapse" aria-labelledby="headingSolution1" data-bs-parent="#accordionSolution1">
+<div id="collapseSolution1" class="accordion-collapse collapse" data-bs-parent="#accordionSolution1" aria-labelledby="headingSolution1">
 <div class="accordion-body">
 <p>All of these scenarios can be modeled with a Poisson. Counting the
 number of positive samples out of 50 is more suitable for a binomial
@@ -1020,11 +1011,11 @@ any links that you are not going to use.
  -->
 </section></section><section id="aio-06-simulations"><p>Content from <a href="06-simulations.html">Simulations in R</a></p>
 <hr>
-<p> Last updated on 2023-11-21 | 
+<p>Last updated on 2023-11-21 |
         
         <a href="https://github.com/carpentries/workbench-template-rmd/edit/main/episodes/06-simulations.Rmd" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
 <div class="text-end">
-          <button role="button" aria-pressed="false" tabindex="0" id="expand-code" class="pull-right"> Expand All Solutions <i aria-hidden="true" data-feather="plus"></i></button>
+          <button role="button" aria-pressed="false" tabindex="0" id="expand-code" class="pull-right" data-expand="Expand All Solutions " data-collapse="Collapse All Solutions "> Expand All Solutions <i aria-hidden="true" data-feather="plus"></i></button>
         </div>
 <div class="overview card">
 <h2 class="card-header">Overview</h2>
@@ -1097,11 +1088,9 @@ different each time we run the code.</p>
 <div id="accordionSolution1" class="accordion challenge-accordion accordion-flush">
 <div class="accordion-item">
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution1" aria-expanded="false" aria-controls="collapseSolution1">
-  <h4 class="accordion-header" id="headingSolution1">
-  Show me the solution
-  </h4>
+  <h4 class="accordion-header" id="headingSolution1">Show me the solution</h4>
 </button>
-<div id="collapseSolution1" class="accordion-collapse collapse" aria-labelledby="headingSolution1" data-bs-parent="#accordionSolution1">
+<div id="collapseSolution1" class="accordion-collapse collapse" data-bs-parent="#accordionSolution1" aria-labelledby="headingSolution1">
 <div class="accordion-body">
 <div class="codewrapper sourceCode" id="cb3">
 <h3 class="code-label">R<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
@@ -1124,11 +1113,11 @@ different each time we run the code.</p>
 </div>
 </div></section><section id="aio-07-gamma-poisson"><p>Content from <a href="07-gamma-poisson.html">The Gamma-Poisson distribution</a></p>
 <hr>
-<p> Last updated on 2023-11-21 | 
+<p>Last updated on 2023-11-21 |
         
         <a href="https://github.com/carpentries/workbench-template-rmd/edit/main/episodes/07-gamma-poisson.Rmd" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
 <div class="text-end">
-          <button role="button" aria-pressed="false" tabindex="0" id="expand-code" class="pull-right"> Expand All Solutions <i aria-hidden="true" data-feather="plus"></i></button>
+          <button role="button" aria-pressed="false" tabindex="0" id="expand-code" class="pull-right" data-expand="Expand All Solutions " data-collapse="Collapse All Solutions "> Expand All Solutions <i aria-hidden="true" data-feather="plus"></i></button>
         </div>
 <div class="overview card">
 <h2 class="card-header">Overview</h2>
@@ -1260,11 +1249,9 @@ function <code>var</code>.</li>
 <div id="accordionSolution1" class="accordion challenge-accordion accordion-flush">
 <div class="accordion-item">
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution1" aria-expanded="false" aria-controls="collapseSolution1">
-  <h4 class="accordion-header" id="headingSolution1">
-  Show me the solution
-  </h4>
+  <h4 class="accordion-header" id="headingSolution1">Show me the solution</h4>
 </button>
-<div id="collapseSolution1" class="accordion-collapse collapse" data-bs-parent="#accordionSolution1" aria-labelledby="headingSolution1">
+<div id="collapseSolution1" class="accordion-collapse collapse" aria-labelledby="headingSolution1" data-bs-parent="#accordionSolution1">
 <div class="accordion-body">
 <div class="codewrapper sourceCode" id="cb1">
 <h3 class="code-label">R<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
@@ -1327,11 +1314,11 @@ any links that you are not going to use.
 </div>
 </section></section><section id="aio-08-gaussian"><p>Content from <a href="08-gaussian.html">The Gaussian distribution</a></p>
 <hr>
-<p> Last updated on 2023-11-21 | 
+<p>Last updated on 2023-11-21 |
         
         <a href="https://github.com/carpentries/workbench-template-rmd/edit/main/episodes/08-gaussian.Rmd" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
 <div class="text-end">
-          <button role="button" aria-pressed="false" tabindex="0" id="expand-code" class="pull-right"> Expand All Solutions <i aria-hidden="true" data-feather="plus"></i></button>
+          <button role="button" aria-pressed="false" tabindex="0" id="expand-code" class="pull-right" data-expand="Expand All Solutions " data-collapse="Collapse All Solutions "> Expand All Solutions <i aria-hidden="true" data-feather="plus"></i></button>
         </div>
 <div class="overview card">
 <h2 class="card-header">Overview</h2>
@@ -1387,11 +1374,11 @@ Place links that you need to refer to multiple times across pages here. Delete
 any links that you are not going to use. 
  --></section></section><section id="aio-09-visualizing-distributions"><p>Content from <a href="09-visualizing-distributions.html">Visualizing distributions</a></p>
 <hr>
-<p> Last updated on 2023-11-21 | 
+<p>Last updated on 2023-11-21 |
         
         <a href="https://github.com/carpentries/workbench-template-rmd/edit/main/episodes/09-visualizing-distributions.Rmd" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
 <div class="text-end">
-          <button role="button" aria-pressed="false" tabindex="0" id="expand-code" class="pull-right"> Expand All Solutions <i aria-hidden="true" data-feather="plus"></i></button>
+          <button role="button" aria-pressed="false" tabindex="0" id="expand-code" class="pull-right" data-expand="Expand All Solutions " data-collapse="Collapse All Solutions "> Expand All Solutions <i aria-hidden="true" data-feather="plus"></i></button>
         </div>
 <div class="overview card">
 <h2 class="card-header">Overview</h2>
@@ -1522,11 +1509,11 @@ any links that you are not going to use.
  -->
 </section></section><section id="aio-10-histogram"><p>Content from <a href="10-histogram.html">Histograms in R</a></p>
 <hr>
-<p> Last updated on 2023-11-21 | 
+<p>Last updated on 2023-11-21 |
         
         <a href="https://github.com/carpentries/workbench-template-rmd/edit/main/episodes/10-histogram.Rmd" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
 <div class="text-end">
-          <button role="button" aria-pressed="false" tabindex="0" id="expand-code" class="pull-right"> Expand All Solutions <i aria-hidden="true" data-feather="plus"></i></button>
+          <button role="button" aria-pressed="false" tabindex="0" id="expand-code" class="pull-right" data-expand="Expand All Solutions " data-collapse="Collapse All Solutions "> Expand All Solutions <i aria-hidden="true" data-feather="plus"></i></button>
         </div>
 <div class="overview card">
 <h2 class="card-header">Overview</h2>
@@ -1609,9 +1596,7 @@ data. What happens if you don’t?</p>
 <div id="accordionSolution1" class="accordion challenge-accordion accordion-flush">
 <div class="accordion-item">
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution1" aria-expanded="false" aria-controls="collapseSolution1">
-  <h4 class="accordion-header" id="headingSolution1">
-  Show me the solution
-  </h4>
+  <h4 class="accordion-header" id="headingSolution1">Show me the solution</h4>
 </button>
 <div id="collapseSolution1" class="accordion-collapse collapse" data-bs-parent="#accordionSolution1" aria-labelledby="headingSolution1">
 <div class="accordion-body">
@@ -1738,11 +1723,11 @@ any links that you are not going to use.
 </div>
 </section></section><section id="aio-11-cdf"><p>Content from <a href="11-cdf.html">The cumulative distribution function</a></p>
 <hr>
-<p> Last updated on 2023-11-21 | 
+<p>Last updated on 2023-11-21 |
         
         <a href="https://github.com/carpentries/workbench-template-rmd/edit/main/episodes/11-cdf.Rmd" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
 <div class="text-end">
-          <button role="button" aria-pressed="false" tabindex="0" id="expand-code" class="pull-right"> Expand All Solutions <i aria-hidden="true" data-feather="plus"></i></button>
+          <button role="button" aria-pressed="false" tabindex="0" id="expand-code" class="pull-right" data-expand="Expand All Solutions " data-collapse="Collapse All Solutions "> Expand All Solutions <i aria-hidden="true" data-feather="plus"></i></button>
         </div>
 <div class="overview card">
 <h2 class="card-header">Overview</h2>
@@ -1817,11 +1802,11 @@ tool that does the work for you.</p>
 </div>
 </div></section><section id="aio-12-qq"><p>Content from <a href="12-qq.html">The QQ-plot</a></p>
 <hr>
-<p> Last updated on 2023-11-21 | 
+<p>Last updated on 2023-11-21 |
         
         <a href="https://github.com/carpentries/workbench-template-rmd/edit/main/episodes/12-qq.Rmd" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
 <div class="text-end">
-          <button role="button" aria-pressed="false" tabindex="0" id="expand-code" class="pull-right"> Expand All Solutions <i aria-hidden="true" data-feather="plus"></i></button>
+          <button role="button" aria-pressed="false" tabindex="0" id="expand-code" class="pull-right" data-expand="Expand All Solutions " data-collapse="Collapse All Solutions "> Expand All Solutions <i aria-hidden="true" data-feather="plus"></i></button>
         </div>
 <div class="overview card">
 <h2 class="card-header">Overview</h2>
@@ -1979,9 +1964,7 @@ Poisson instead?</p>
 <div id="accordionSolution1" class="accordion challenge-accordion accordion-flush">
 <div class="accordion-item">
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution1" aria-expanded="false" aria-controls="collapseSolution1">
-  <h4 class="accordion-header" id="headingSolution1">
-  Show me the solution
-  </h4>
+  <h4 class="accordion-header" id="headingSolution1">Show me the solution</h4>
 </button>
 <div id="collapseSolution1" class="accordion-collapse collapse" data-bs-parent="#accordionSolution1" aria-labelledby="headingSolution1">
 <div class="accordion-body">
@@ -2003,11 +1986,11 @@ any links that you are not going to use.
  -->
 </section></section><section id="aio-13-summary"><p>Content from <a href="13-summary.html">Summary</a></p>
 <hr>
-<p> Last updated on 2023-11-21 | 
+<p>Last updated on 2023-11-21 |
         
         <a href="https://github.com/carpentries/workbench-template-rmd/edit/main/episodes/13-summary.Rmd" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
 <div class="text-end">
-          <button role="button" aria-pressed="false" tabindex="0" id="expand-code" class="pull-right"> Expand All Solutions <i aria-hidden="true" data-feather="plus"></i></button>
+          <button role="button" aria-pressed="false" tabindex="0" id="expand-code" class="pull-right" data-expand="Expand All Solutions " data-collapse="Collapse All Solutions "> Expand All Solutions <i aria-hidden="true" data-feather="plus"></i></button>
         </div>
 <div class="section level3">
 <h3 id="sampling-and-distributions">Sampling and distributions<a class="anchor" aria-label="anchor" href="#sampling-and-distributions"></a>
@@ -2079,11 +2062,11 @@ any links that you are not going to use.
  -->
 </div></section><section id="aio-14-exercises"><p>Content from <a href="14-exercises.html">Exercises</a></p>
 <hr>
-<p> Last updated on 2023-11-21 | 
+<p>Last updated on 2023-11-21 |
         
         <a href="https://github.com/carpentries/workbench-template-rmd/edit/main/episodes/14-exercises.Rmd" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
 <div class="text-end">
-          <button role="button" aria-pressed="false" tabindex="0" id="expand-code" class="pull-right"> Expand All Solutions <i aria-hidden="true" data-feather="plus"></i></button>
+          <button role="button" aria-pressed="false" tabindex="0" id="expand-code" class="pull-right" data-expand="Expand All Solutions " data-collapse="Collapse All Solutions "> Expand All Solutions <i aria-hidden="true" data-feather="plus"></i></button>
         </div>
 <section id="exercises"><h2 class="section-heading">Exercises<a class="anchor" aria-label="anchor" href="#exercises"></a>
 </h2>
@@ -2208,13 +2191,13 @@ any links that you are not going to use.
 <!--/div.row-->
       		<footer class="row footer mx-md-3"><hr>
 <div class="col-md-6">
-				<p>This lesson is subject to the <a href="CODE_OF_CONDUCT.html">Code of Conduct</a></p>
+        <p>This lesson is subject to the <a href="CODE_OF_CONDUCT.html">Code of Conduct</a></p>
         <p>
         
         <a href="https://github.com/carpentries/workbench-template-rmd/edit/main/README.md" class="external-link">Edit on GitHub</a>
         
 	
-        | <a href="https://github.com/carpentries/workbench-template-rmd/blob/main/CONTRIBUTING.md" class="external-link">Contributing</a> 
+        | <a href="https://github.com/carpentries/workbench-template-rmd/blob/main/CONTRIBUTING.md" class="external-link">Contributing</a>
         | <a href="https://github.com/carpentries/workbench-template-rmd/" class="external-link">Source</a></p>
 				<p><a href="https://github.com/carpentries/workbench-template-rmd/blob/main/CITATION" class="external-link">Cite</a> | <a href="mailto:sarah.kaspar@embl.de">Contact</a> | <a href="https://carpentries.org/about/" class="external-link">About</a></p>
 			</div>
@@ -2222,16 +2205,14 @@ any links that you are not going to use.
         
         <p>Materials licensed under <a href="LICENSE.html">CC-BY 4.0</a> by the authors</p>
         
-        <p><a href="https://creativecommons.org/licenses/by-sa/4.0/" class="external-link">Template licensed under CC-BY 4.0</a> by <a href="https://carpentries.org" class="external-link">The Carpentries</a></p>
-        <p>Built with <a href="https://github.com/carpentries/sandpaper/tree/0.15.0" class="external-link">sandpaper (0.15.0)</a>,
-        <a href="https://github.com/carpentries/pegboard/tree/0.7.3" class="external-link">pegboard (0.7.3)</a>,
-      and <a href="https://github.com/carpentries/varnish/tree/0.4.0" class="external-link">varnish (0.4.0)</a>.</p>
+        <p>Template licensed under <a href="https://creativecommons.org/licenses/by-sa/4.0/" class="external-link">CC-BY 4.0</a> by <a href="https://carpentries.org/" class="external-link">The Carpentries</a></p>
+        <p>Built with <a href="https://github.com/carpentries/sandpaper/tree/0.16.1" class="external-link">sandpaper (0.16.1)</a>, <a href="https://github.com/carpentries/pegboard/tree/0.7.3" class="external-link">pegboard (0.7.3)</a>, and <a href="https://github.com/carpentries/varnish/tree/1.0.1" class="external-link">varnish (1.0.1)</a></p>
 			</div>
 		</footer>
 </div> <!-- / div.container -->
 	<div id="to-top">
 		<a href="#top">
-			<i class="search-icon" data-feather="arrow-up" role="img" aria-label="Back to top"></i><br><span class="d-none d-sm-none d-md-none d-lg-none d-xl-block">Back</span> To Top
+      <i class="search-icon" data-feather="arrow-up" role="img" aria-label="Back To Top"></i><br><!-- <span class="d-none d-sm-none d-md-none d-lg-none d-xl-block">Back</span> To Top --><span class="d-none d-sm-none d-md-none d-lg-none d-xl-block">Back</span> To Top
 		</a>
 	</div>
   <script type="application/ld+json">
@@ -2247,8 +2228,8 @@ any links that you are not going to use.
   "url": "https://carpentries.github.io/workbench-template-rmd/aio.html",
   "identifier": "https://carpentries.github.io/workbench-template-rmd/aio.html",
   "dateCreated": "2023-09-08",
-  "dateModified": "2023-12-12",
-  "datePublished": "2023-12-12"
+  "dateModified": "2023-12-19",
+  "datePublished": "2023-12-19"
 }
 
   </script><script>
