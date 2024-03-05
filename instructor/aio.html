@@ -438,7 +438,8 @@
 </div>
 </div>
 </div>
-<figure><img src="../fig/sampling-frogs.png" alt="lake with frogs and two samples drawn from them" width="500" class="figure mx-auto d-block"><figcaption>Sampling frogs in a lake</figcaption></figure><p>Let’s start with an example, and thereby define some terminology. We
+<figure><img src="../fig/sampling-frogs.png" width="500" alt="lake with frogs and two samples drawn from them" class="figure mx-auto d-block"><div class="figcaption">Sampling frogs in a lake</div>
+</figure><p>Let’s start with an example, and thereby define some terminology. We
 have a lake with frogs in it, and there are light and dark green frogs.
 There’s a sunny side of the lake, and a shadowy area by the trees. Now
 imagine you want to estimate the fraction of light green frogs in the
@@ -531,11 +532,13 @@ between 0 and 10.</p>
 probability. A suitable distribution for describing this scenario is the
 <em>binomial distribution</em>, which assumes a number of trials (frog
 catches) which can have two outcomes (light, dark).</p>
-<figure><img src="../fig/sampling-frogs-2.png" alt="possible outcomes of sampling ten frogs" width="500" class="figure mx-auto d-block"><figcaption>Binomial sampling</figcaption></figure><p>If the true fraction of light frogs is one third, then the most
+<figure><img src="../fig/sampling-frogs-2.png" width="500" alt="possible outcomes of sampling ten frogs" class="figure mx-auto d-block"><div class="figcaption">Binomial sampling</div>
+</figure><p>If the true fraction of light frogs is one third, then the most
 likely outcome is catching 3 light frogs. Seeing 10 light frogs is
 rather unlikely: The probability is close to zero, and we would consider
 this a rare event.</p>
-<figure><img src="../fig/sampling-frogs-3.png" alt="graph showing probability distribution of frog catches" width="500" class="figure mx-auto d-block"><figcaption>Sampling probabilities</figcaption></figure><div id="challenge-which-of-the-following-statements-are-true" class="callout challenge">
+<figure><img src="../fig/sampling-frogs-3.png" width="500" alt="graph showing probability distribution of frog catches" class="figure mx-auto d-block"><div class="figcaption">Sampling probabilities</div>
+</figure><div id="challenge-which-of-the-following-statements-are-true" class="callout challenge">
 <div class="callout-square">
 <i class="callout-icon" data-feather="zap"></i>
 </div>
@@ -571,7 +574,8 @@ represent reality well.</p>
 </div>
 </div>
 </div>
-<figure><img src="../fig/distributions-1.png" alt="example graphs for discrete and continuous probability distributions" width="800" class="figure mx-auto d-block"><figcaption>Types of probability distributions</figcaption></figure></section><section id="discrete-and-continuous-distributions"><h2 class="section-heading">Discrete and continuous distributions<a class="anchor" aria-label="anchor" href="#discrete-and-continuous-distributions"></a>
+<figure><img src="../fig/distributions-1.png" width="800" alt="example graphs for discrete and continuous probability distributions" class="figure mx-auto d-block"><div class="figcaption">Types of probability distributions</div>
+</figure></section><section id="discrete-and-continuous-distributions"><h2 class="section-heading">Discrete and continuous distributions<a class="anchor" aria-label="anchor" href="#discrete-and-continuous-distributions"></a>
 </h2>
 <hr class="half-width">
 <p>There are two types of probability distributions: discrete and
@@ -685,13 +689,12 @@ k}p^k(1-p)^k\]</span></p>
 point that you can calculate the probability of an event that is modeled
 with the binomial distribution, if you know the success probability
 <span class="math inline">\(p\)</span> and the number of trials <span class="math inline">\(n\)</span>, i.e. the parameters.</p>
-<div id="callout1" class="callout callout">
+<div id="callout1" class="callout">
 <div class="callout-square">
 <i class="callout-icon" data-feather="bell"></i>
 </div>
-<div class="callout-inner">
-<h3 class="callout-title">Callout<a class="anchor" aria-label="anchor" href="#callout1"></a>
-</h3>
+<div class="section level3 callout-title callout-inner">
+<h3 class="callout-title">Callout</h3>
 <div class="callout-content">
 <p>In the binomial we just define a particular outcome as success, for
 example a light-coloured frog, or a patient with disease, even though
@@ -701,7 +704,8 @@ that may not be a favourable outcome.</p>
 </div>
 <p>Here is what the distribution looks like for a success probability of
 0.3 and a sample size of 10.</p>
-<figure><img src="../fig/binomial.png" alt="example graph for binomial probability distribution" width="500" class="figure mx-auto d-block"><figcaption>The binomial distribution</figcaption></figure><p>The expected value of the binomial is <span class="math inline">\(n
+<figure><img src="../fig/binomial.png" width="500" alt="example graph for binomial probability distribution" class="figure mx-auto d-block"><div class="figcaption">The binomial distribution</div>
+</figure><p>The expected value of the binomial is <span class="math inline">\(n
 \times p\)</span>, which is quite intuitive: If we catch 10 frogs and
 the probability of being light-green is 0.3, then we expect to catch 3
 light-green frogs on average.</p></section><section id="aio-04-distributions-R"><p>Content from <a href="04-distributions-R.html">Probability distributions in R</a></p>
@@ -918,8 +922,9 @@ often be convenient, specifically if we have</p>
 </li>
 <li>a small success probability <span class="math inline">\(p\)</span>.</li>
 </ul>
-<figure><img src="../fig/poisson-derivation.png" alt="frog cartoon demonstrating how the Poisson is derived from the Binomial distribution" width="700" class="figure mx-auto d-block"><figcaption>The Poisson distribution is a special case of the
-binomial</figcaption></figure><p>An example:</p>
+<figure><img src="../fig/poisson-derivation.png" width="700" alt="frog cartoon demonstrating how the Poisson is derived from the Binomial distribution" class="figure mx-auto d-block"><div class="figcaption">The Poisson distribution is a special case of
+the binomial</div>
+</figure><p>An example:</p>
 <ul>
 <li>We now fill the net for 1h, which is for a fixed period of
 time.</li>
@@ -946,7 +951,8 @@ approximated with a Poisson distribution.</p>
 <p>Even though the Poisson is derived as an approximation of the
 Binomial, we don’t necessarily need two categories of events to use it.
 We can also use it to count events of a single category.</p>
-<figure><img src="../fig/sampling-frogs.png" alt="lake with only one sort of frogs" width="350" class="figure mx-auto d-block"><figcaption>Poisson example</figcaption></figure><p>For example, consider a two lakes with frogs of only one colour. We
+<figure><img src="../fig/sampling-frogs.png" width="350" alt="lake with only one sort of frogs" class="figure mx-auto d-block"><div class="figcaption">Poisson example</div>
+</figure><p>For example, consider a two lakes with frogs of only one colour. We
 might want to compare the density of frogs in these lakes, which can be
 done by comparing the Poisson rates. For this, we count frogs within
 <span class="math inline">\(2 m^2\)</span> regions in both lakes. For
@@ -1114,7 +1120,7 @@ different each time we run the code.</p>
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution1" aria-expanded="false" aria-controls="collapseSolution1">
   <h4 class="accordion-header" id="headingSolution1">Show me the solution</h4>
 </button>
-<div id="collapseSolution1" class="accordion-collapse collapse" data-bs-parent="#accordionSolution1" aria-labelledby="headingSolution1">
+<div id="collapseSolution1" class="accordion-collapse collapse" aria-labelledby="headingSolution1" data-bs-parent="#accordionSolution1">
 <div class="accordion-body">
 <div class="codewrapper sourceCode" id="cb3">
 <h3 class="code-label">R<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
@@ -1184,7 +1190,8 @@ mean.This is due to additional variation that we haven’t captured, or
 that we cannot control for.</p>
 <p align="center">
 <img src="../fig/gamma-poisson.png" width="800" class="figure"></p>
-<figure><img src="../fig/gamma-poisson.png" alt="plots demonstrating a mixture distribution from gamma and poisson" width="800" class="figure mx-auto d-block"><figcaption>The Gamma Poisson distribution</figcaption></figure><p>To stay with the frogs counts – but this time each individual frog
+<figure><img src="../fig/gamma-poisson.png" width="800" alt="plots demonstrating a mixture distribution from gamma and poisson" class="figure mx-auto d-block"><div class="figcaption">The Gamma Poisson distribution</div>
+</figure><p>To stay with the frogs counts – but this time each individual frog
 was caught from a different lake. And each lake has slightly different
 properties that affect the rate at which we can catch frogs in it. There
 might be more or less frogs in them, or better hiding places.</p>
@@ -1231,12 +1238,12 @@ the inverse of <span class="math inline">\(\theta\)</span>, that is for
 a small <code>size</code> you will get a distribution with a large
 overdispersion (=spread). For very large values of <code>size</code>,
 the distribution will tend towards a Poisson distribution.</p>
-<div id="note" class="callout callout">
+<div id="callout1" class="callout">
 <div class="callout-square">
 <i class="callout-icon" data-feather="bell"></i>
 </div>
-<div id="note" class="callout-inner">
-<h3 class="callout-title">Note<a class="anchor" aria-label="anchor" href="#note"></a>
+<div class="section level3 callout-title callout-inner">
+<h3 class="callout-title" id="note">Note<a class="anchor" aria-label="anchor" href="#note"></a>
 </h3>
 <div class="callout-content">
 <p>Consult the “Details” in the help function
@@ -1388,7 +1395,8 @@ example</p>
 </li>
 <li>pixel intensities.</li>
 </ul>
-<figure><img src="../fig/frog_sizes.png" alt="plot of Gaussian distribution" width="500" class="figure mx-auto d-block"><figcaption>Gaussian probability density function</figcaption></figure><p>The Gaussian distribution is continuous and has two parameters:</p>
+<figure><img src="../fig/frog_sizes.png" width="500" alt="plot of Gaussian distribution" class="figure mx-auto d-block"><div class="figcaption">Gaussian probability density function</div>
+</figure><p>The Gaussian distribution is continuous and has two parameters:</p>
 <ul>
 <li>the <em>mean</em>, which is estimated by the sample mean, and<br>
 </li>
@@ -1507,12 +1515,12 @@ this plot is a comparison between theory and data. The nice thing about
 this plot is that when the theory and data match well, all points end up
 on a straight line. And it’s easy for our eyes to decide whether
 something is a straight line or not.</p>
-<div id="a-note-on-fitting" class="callout callout">
+<div id="callout1" class="callout">
 <div class="callout-square">
 <i class="callout-icon" data-feather="bell"></i>
 </div>
-<div id="a-note-on-fitting" class="callout-inner">
-<h3 class="callout-title">A note on fitting<a class="anchor" aria-label="anchor" href="#a-note-on-fitting"></a>
+<div class="section level3 callout-title callout-inner">
+<h3 class="callout-title" id="a-note-on-fitting">A note on fitting<a class="anchor" aria-label="anchor" href="#a-note-on-fitting"></a>
 </h3>
 <div class="callout-content">
 <p>When we say we “fit” a distribution, we are usually talking about the
@@ -1626,7 +1634,7 @@ data. What happens if you don’t?</p>
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution1" aria-expanded="false" aria-controls="collapseSolution1">
   <h4 class="accordion-header" id="headingSolution1">Show me the solution</h4>
 </button>
-<div id="collapseSolution1" class="accordion-collapse collapse" aria-labelledby="headingSolution1" data-bs-parent="#accordionSolution1">
+<div id="collapseSolution1" class="accordion-collapse collapse" data-bs-parent="#accordionSolution1" aria-labelledby="headingSolution1">
 <div class="accordion-body">
 <p>An automatic bin-width of 30 is chosen. Decide for yourself whether
 this gives you a good overview over your data. It’s often a good idea to
@@ -1815,12 +1823,12 @@ cumulative distribution and add them to the plot:</p>
 <figure><img src="../fig/11-cdf-rendered-ecdf-cdf-plot-1.png" style="display: block; margin: auto;" class="figure mx-auto d-block"></figure><p>Off this plot you can read for a frog size of <span class="math inline">\(x\)</span> (e.g. 7cm), that about 50% of the
 values are smaller than this value. So this is really just another way
 to display the histogram.</p>
-<div id="note" class="callout callout">
+<div id="callout1" class="callout">
 <div class="callout-square">
 <i class="callout-icon" data-feather="bell"></i>
 </div>
-<div id="note" class="callout-inner">
-<h3 class="callout-title">Note<a class="anchor" aria-label="anchor" href="#note"></a>
+<div class="section level3 callout-title callout-inner">
+<h3 class="callout-title" id="note">Note<a class="anchor" aria-label="anchor" href="#note"></a>
 </h3>
 <div class="callout-content">
 <p>The procedure above was shown for demonstration purposes. We will not
@@ -1996,7 +2004,7 @@ Poisson instead?</p>
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution1" aria-expanded="false" aria-controls="collapseSolution1">
   <h4 class="accordion-header" id="headingSolution1">Show me the solution</h4>
 </button>
-<div id="collapseSolution1" class="accordion-collapse collapse" aria-labelledby="headingSolution1" data-bs-parent="#accordionSolution1">
+<div id="collapseSolution1" class="accordion-collapse collapse" data-bs-parent="#accordionSolution1" aria-labelledby="headingSolution1">
 <div class="accordion-body">
 <div class="codewrapper sourceCode" id="cb11">
 <h3 class="code-label">R<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
@@ -2261,8 +2269,8 @@ any links that you are not going to use.
   "url": "https://carpentries.github.io/workbench-template-rmd/instructor/aio.html",
   "identifier": "https://carpentries.github.io/workbench-template-rmd/instructor/aio.html",
   "dateCreated": "2023-09-08",
-  "dateModified": "2024-02-27",
-  "datePublished": "2024-02-27"
+  "dateModified": "2024-03-05",
+  "datePublished": "2024-03-05"
 }
 
   </script><script>
